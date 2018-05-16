@@ -1,0 +1,308 @@
+body{
+    background-color: #F6F6F6!important;
+}
+
+.staffy_bg{
+    background-image: url('./img/staffy_cover.jpg');
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+.staff_container{
+    background-color: white;
+    margin: -100px auto 0 auto;
+    width: 70%;
+    padding: 85px;
+}
+
+.staffer_profile_img{
+   margin-top: -190px;
+   text-align: center
+}
+
+.text-center{
+    text-align: center
+}
+
+
+
+/* 
+new Design for staffer-profile
+*/
+
+
+/* Background Color Variables */
+
+
+.staffy-blue-backgroundC .staffer-blue-textC{
+    background-color: #257ABF
+}
+
+.staffy-darkblue-backgroundC .staffer-darkblue-textC{
+    background-color: #084C83
+}
+
+.staffy-skyblue-backgroundC .staffer-skyblue-textC{
+    background-color: #92D7E7
+}
+
+.staffy-charcoal-backgroundC .staffer-charcoal-textC{
+    background-color: #92D7E7
+}
+
+.staffy-darkgrey-backgroundC .staffer-darkgrey-textC{
+    background-color: #979797
+}
+
+.staffy-lightgrey-backgroundC .lightgrey-textC{
+    background-color: #DDDDDD;
+}
+
+.staffy-grey-backgroundC .staffer-grey-textC{
+    background-color: #F6F6F6
+}
+
+.staffy-white-backgroundC .staffer-white-textC{
+    background-color: #FFFFFF
+}
+
+.staffy-orange-backgroundC .staffer-orange-textC{
+    background-color: #F38335
+}
+
+.staffy-lightorange-backgroundC .staffer-lightorange-textC{
+    background-color: #FED7BC
+}
+
+.staffy-red-backgroundC .staffer-red-textC{
+    background-color: #DD052B
+}
+
+
+/* 
+    Typography
+*/
+
+/* Headers */
+
+.staffer-profile h1, .staffer-profile h2, .staffer-profile h3, .staffer-profile h4 {
+    font-family: 'Source Sans Pro' !important
+}   
+
+.staffer-profile h1{
+    font-size: 60px;
+}
+
+.staffer-profile h2{
+    font-size: 40px;
+}
+
+.staffer-profile h3{
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase
+}
+
+.staffer-profile .myP{
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.staffer-profile h4{
+    font-size: 15px;
+    font-weight: 900
+}
+
+.staffer-profile h5{
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Merriweather, sans-sarif';
+    font-style: italic;
+}
+
+.staffer-profile .B1{
+    font-size: 18px;
+    color: #4A4A4A;
+}
+
+.staffer-profile .B2{
+    font-size: 14px;
+    color: #4A4A4A;
+}
+
+.staffer-profile .B3{
+    font-size: 14px;
+    font-weight: 900;
+    color: #4A4A4A;
+}
+
+.staffer-profile .B4{
+    font-style: italic;
+    color: #4A4A4A;
+    font-family: 'Merriweather, sans-sarif'
+}
+
+.staffer-profile .B5{
+    font-size: 10px;
+    color: #4A4A4A;
+}
+
+.staffer-profile .B6{
+    font-size: 18px;
+    color: #979797;
+}
+
+.staffer-profile .B7{
+    font-size: 15px;
+    color: #979797;
+}
+
+.staffer-profile .B7{
+    font-size: 18px;
+    color: #4A4A4A;
+}
+/* 
+    Linkes
+*/
+
+.staffer-profile .L1{
+    color: #257ABF;
+    font-size: 18px;
+    font-weight: 900
+}
+
+.staffer-profile .L1:hover{
+    cursor: pointer;
+    color: #257ABF;
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: underline
+}
+
+.staffer-profile .L1:visited{
+    color: #979797;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.staffer-profile .L1:active{
+    color: #084C83;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.staffer-profile .L2{
+    color: #257ABF;
+    font-size: 18px;
+    font-style: italic
+}
+
+.staffer-profile .L2:hover{
+    cursor: pointer;
+    color: #257ABF;
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: underline
+}
+
+.staffer-profile .L1:visited{
+    color: #979797;
+    font-size: 18px;
+    font-style: italic
+}
+
+.staffer-profile .L1:active{
+    color: #084C83;
+    font-size: 18px;
+    font-style: italic
+}
+
+.margin-top-30{
+    margin-top: 30px;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+
+.margin-tb-30{
+    margin: 30px 0 30px 0;
+}
+
+.margin-tb-20{
+    margin: 20px 0 20px 0;
+}
+
+.margin-tb-10{
+    margin: 10px 0 10px 0;
+}
+
+
+
+
+/* Divider */
+
+
+.col-12-dark-divider{
+    border: 1px solid #979797
+}
+
+.col-12-dark-divider-2px{
+    border: 2px solid #979797
+}
+
+.col-12-light-divider{
+    border: 1px solid lightgray
+}
+
+.summary-heading{
+    color: white;
+    background: #257ABF;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 10px
+}
+
+.summary-heading::before{
+    padding-left: 2px;
+}
+
+.never-late{
+    background-color: #92D7E7;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: #257ABF
+}
+
+.create-broadcast-container .hire-staffy{
+    width: 200px !important;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 767px){
+ .staffy-container-padding{
+    
+    width: 85%!important;
+    padding: 35px!important;
+ }
+  }
+

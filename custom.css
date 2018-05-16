@@ -1,0 +1,4834 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700');
+
+body {
+    font-family: 'Lato', 'arial', 'sans-serif' !important;
+}
+/*.loading-container .loading {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    width:80%;
+}
+
+.loading-container .loading a {
+    text-decoration: none;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.loading-container {
+    position: absolute;
+    left: 0;
+    top: initial;
+    right: 0;
+    bottom: 20px;
+}
+
+.notification-popup {
+    position: absolute;
+    top: 55%;
+}
+*/
+
+
+.notification-popup .popup {
+    background-color: rgba(255, 255, 255, 1);
+    /*background-color:  white;*/
+    border-radius: 15px;
+}
+
+
+
+.notification-popup .popup .popup-head {
+    display: none;
+}
+
+
+.img-cover {
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    object-fit: cover;
+}
+
+.color-theme-green,
+.color-theme-blue,
+.color-theme-red {
+    color: #f8f8f8;
+}
+
+.color-theme-green {
+    background-color: #60CE94;
+    border-color: #60CE94;
+}
+
+.text-theme-green {
+    color: #60CE94;
+}
+
+.text-color-green {
+    color: #60CE94 !important;
+}
+
+.font-size-12 {
+    font-size: 12px !important;
+}
+
+.flex-center {
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+
+.ionic_datepicker_popup .prev_btn_section button,
+.ionic_datepicker_popup .next_btn_section button {
+    color : #60CE94 !important;
+}
+
+.ionic_datepicker_popup .popup-body .selected_date_full,
+.ionic_datepicker_popup .popup-buttons .button_set,
+.ionic_datepicker_popup .popup-buttons .button_close,
+.ionic_datepicker_popup .selected_date {
+    background-color: #60CE94 !important;
+}
+
+.ionic_datepicker_popup .popup-body .month_select,
+.ionic_datepicker_popup .popup-body .year_select {
+    border-bottom: 1px solid #60CE94 !important;
+}
+
+.ionic_datepicker_popup .today {
+    border: 1px solid #60CE94 !important;
+}
+
+.ionic_datepicker_popup .popup-body .month_select:after, .ionic_datepicker_popup .popup-body .year_select:after {
+    color: #60CE94 !important;
+}
+
+.color-theme-blue {
+    background-color: #3498DB;
+    border-color: #3498DB;
+}
+
+.color-theme-blue:hover,
+.color-theme-green:hover {
+    color : #fff;
+    text-decoration: none;
+}
+
+.color-theme-red {
+    background-color: #EB5A46;
+}
+
+.text-color-red {
+    color: #EB5A46 !important;
+}
+
+.text-color-blue {
+    color: #3498DB !important;
+}
+
+.text-color-orange {
+    color: #FB8A12 !important;
+}
+
+.vertical-align-top {
+    vertical-align: top;
+}
+
+.vertical-align-bottom {
+    vertical-align: bottom;
+}
+
+.bg-F1F1F1 {
+    background-color: #F1F1F1
+}
+
+.bg-F9F9F9 {
+    background-color: #F9F9F9 !important;
+}
+
+.bg-FCFCFC {
+    background-color: #FCFCFC !important;
+}
+
+.bg-FFF {
+    background-color: #FFF !important;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.div-availability {
+    margin: 0 auto;
+}
+
+.h5-availability-text {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.upper-case{
+    text-transform: capitalize!important;
+}
+
+.div-availability-signal {
+    height: 17px;
+    width: 17px;
+    margin-top: 8px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.div-verified {
+    width: 150px;
+    text-align: center;
+}
+
+.div-verified-signal {
+    height: 14px;
+    margin-top: 8px;
+    border-radius: 100%;
+}
+
+/*.bar {
+    height: 87px;
+    border: none;
+}
+
+@media screen and (max-width: 767px) {
+    .bar {
+        height: 66px;
+    }
+}*/
+
+.full-width{
+    width: 100%;
+}
+
+.user-nav {
+    margin-top: 8px;
+}
+
+.user-nav img {
+    width: 25px;
+    height: 22px;
+}
+
+.mobile-notifications .label-danger {
+    top: -5px;
+    right: -16px;
+}
+
+.user-info .label-danger {
+    font-size: 10px;
+    padding: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px
+}
+
+.alert-menu{
+  border-radius : 10px;
+  display: inline-block;
+  padding : 0px 5px 0px 5px;
+  font-size : 0.79em;
+  position : absolute;
+  top : 4px;
+  left : 30px;
+}
+
+.nav-bar-title .logo{
+    top: 12px !important;
+    width: 100px;
+    float: none;
+}
+
+.title.title-left.header-item {
+    left: 0 !important;
+    right: 0 !important;
+}
+
+.editable-click, a.editable-click {
+    color : #000;
+    border-bottom: 1px dashed #000;
+}
+
+.editable-click:hover,
+.editable:hover,
+.editable-empty:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.top-23 {
+    top: 23px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-5 {
+    margin-top: 5px !important;
+}
+
+.margin-top-20 {
+    margin-top: 20px !important;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.col-offset-4 {
+    margin-left: 4%;
+}
+
+.padding-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.padding-top-10 {
+    padding-top: 10px;
+}
+
+
+.padding-top-15 {
+    padding-top: 15px;
+}
+
+.has-header {
+    margin-top: 0px !important;
+}
+
+
+.seperator-25 {
+    height: 25px;
+}
+/*@media screen and (max-width: 767px) {
+    .has-header {
+        top: 66px;
+        margin-top: 0px !important;
+    }
+
+}*/
+
+.logo-area .inner,
+.login-signup .inner,
+.mobile-signup .table-cell {
+    vertical-align: top;
+}
+
+.logo-area {
+    width: 100%;
+}
+
+.login-signup,
+.mobile-signup,
+.profile-page,
+.font-family-theme,h1,h2,h3,h4,h5,h6,p,input,button,label,span,select,option
+#navbar ul li {
+    font-family: 'Lato', 'arial', 'sans-serif' !important
+}
+
+.resume-upload-div{
+    /*background-color: #F7F7F9;*/
+}
+.resume-upload-div > div{
+    background-color: #F7F7F9;
+    border-radius : 10px;
+}
+.resume-upload-div > div i {
+    vertical-align: top;
+    /*padding-top: 50px;*/
+}
+.resume-upload-div > div span{
+    /*display: inline-block;*/
+    vertical-align:top;
+    padding-left: 15px;
+    font-size: 1.7em;
+    padding-top: 30px;
+}
+
+.certificate-upload{
+    background-color: #E2E2EF;
+    border-radius : 10px;
+    padding : 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom : 10px;
+}
+
+span.glyphicon{
+    font-family: 'Glyphicons Halflings' !important
+}
+
+.editable-buttons button {
+    padding: 5px !important;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    color: #333333;
+}
+
+.div-profile-image-container {
+    margin-bottom: 50px;
+}
+
+.div-anchor-btn-list .inner .mobile-action a{
+    display: block;
+    margin: 10px auto;
+}
+
+.staffer-search-box input[type="text"] {
+    height: 51px;
+    display: inline-block;
+}
+
+.staffer-search-box input[type="submit"] {
+    height: 51px;
+    vertical-align: bottom;
+    margin-left: -4px;
+    padding: 12px 13px;
+}
+
+.staffer-filters .filter-btn {
+    padding: 15px 4px;
+}
+
+/*.menu-animated{
+    transition : transform 0.5s ease-in-out 0.25s
+}*/
+
+#notifications .notifications-manager {
+    display: block;
+    left: 0;
+    top: 0 !important;
+    width: 100%;
+}
+
+.user-nav {
+    float: right;
+}
+
+.user-nav img {
+    margin-right: 10px;
+    margin-left: 50px;
+}
+
+.title.title-center.header-item {
+    left: 0 !important;
+    right: 0 !important;
+}
+
+.ng-message-alerts {
+    text-align: left;
+    color: #EB5A46;
+}
+
+.bg-gray {
+    background-color: #F0F0F0;
+}
+
+.padding-zero {
+    padding: 0px;
+}
+
+.padding-10{
+    padding: 10px;
+}
+
+.margin-zero {
+    margin: 0px !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.border-radius-10 {
+    border-radius: 10px;
+}
+
+.border-radius-none {
+    border-radius: 0px !important;
+}
+
+.border-top-right-radius {
+    border-top-right-radius: 10px;
+}
+
+.border-radius-top {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.border-radius-bottom {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.blue-border-bottom {
+   border-bottom: 3px solid #3498DB;
+}
+
+.button-blue-sleak,
+.button-green-sleak,
+.button-red-sleak {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    padding: 2px 20px 2px;
+}
+
+
+.button-red-sleak,
+.button-red-sleak:hover{
+    color: #fff;
+    background-color: #EB5A46;
+}
+
+
+@media screen and (min-width: 360px) {
+    .btn-pass-sm{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .btn-pass-lg{
+        display: none;
+    }
+
+    .resume-upload-div > div i {
+        vertical-align: bottom !important;
+        font-size: 2em;
+    }
+    .resume-upload-div > div span{
+        /*display: inline-block;*/
+        font-size: 1.3em;
+        padding-left: 5px;
+    }
+
+}
+
+.button-blue-sleak,
+.button-blue-sleak:hover,
+.button-blue-sleak.activated {
+    color: #fff;
+    background-color: #3498DB;
+}
+
+.button-green-sleak,
+.button-green-sleak:hover,
+.button-green-sleak.activated {
+    color: #fff;
+    background-color: #60CE94;
+}
+
+.button-theme-blue {
+    color: #fff;
+    background-color: #3498DB;
+    border-color: #3498DB;
+}
+
+.button-theme-blue,
+.button-theme-blue:hover,
+.button-theme-blue.activated {
+    color: #fff;
+    background-color: #3498DB;
+}
+
+
+.button-theme-green {
+    color: #fff;
+    background-color: #60CE94;
+    border-color: #60CE94;
+}
+
+.button-theme-green,
+.button-theme-green:hover,
+.button-theme-green.activated {
+    color: #fff;
+    background-color: #60CE94;
+}
+
+.border-bottom-EEE {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.border-right-EEE {
+    border-right: 1px solid #EEEEEE;
+}
+
+.border-left-EEE {
+    border-left: 1px solid #EEEEEE;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.select-070707 {
+    border: 1px solid #070707 !important;
+    font-size: 16px;
+    color: #070707;
+    font-family: 'Lato', 'arial', 'sans-serif';
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.display-inline-flex {
+    display: inline-flex;
+}
+
+.display-block {
+    display: block;
+}
+
+.font-weight-500 {
+    font-weight: 500;
+}
+
+.footer-bar{
+        height: 65px;
+}
+
+.footer-bar button {
+    width: 125px;
+    height: 54px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+/* staffer homepage & restaurant homepage -uncommon stlyes are listed below. */
+
+.profile-container,
+.hire-a-staffer-container,
+.help-container,
+.set-skills-container {
+    border-radius: 10px;
+    margin: 0px auto;
+    font-family: 'Lato', 'arial', 'sans-serif';
+}
+
+@media screen and (max-width: 767px) {
+    .profile-container,
+    .hire-a-staffer-container,
+    .help-container,
+    .set-skills-container {
+        margin: 0px auto;
+    }
+    .profile-container.profile-page .div-profile-stats .profile-attribute{
+        padding-left: 2% !important;
+    }
+
+    .img-top{
+        top:30% !important
+    }
+
+    .padding-left-35{
+        padding-left: 0px !important
+    }
+}
+
+.profile-container {
+    background-color: #FCFCFC;
+}
+
+.profile-container h3 {
+    color : #333333;
+}
+
+.profile-container .div-profile-stats {
+    border-bottom: 1px solid #EEEEEE;
+    padding-bottom: 0px;
+    margin: 0px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #FCFCFC;
+}
+
+.profile-container .div-profile-stats .profile-attribute{
+    border-left: 1px solid #EEEEEE;
+    text-align: center;
+    padding-top:26px;
+}
+
+.profile-container.profile-page .div-profile-stats .profile-attribute{
+    padding: 26px 0px 0px;
+    padding-left: 2%;
+    text-align: left;
+}
+
+.profile-container.profile-page .div-profile-stats .profile-attribute p i.ion-edit{
+    margin-left: 2%;
+}
+
+.profile-container.profile-page .div-profile-stats .profile-attribute .save-changes {
+    width: 90%;
+    margin-top: 10px;
+}
+
+.profile-container.profile-page.mobile-view .div-profile-stats .profile-attribute .save-changes {
+    width: 55%;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.profile-container.mobile-view.profile-page .div-profile-stats {
+    padding-left: 10px;
+}
+
+.profile-container.mobile-view .div-profile-stats .profile-attribute:first-of-type{
+    border-left: 0px solid #EEEEEE;
+}
+
+.profile-container.profile-page.mobile-view .div-profile-stats .profile-attribute {
+    text-align: left;
+}
+
+.profile-container .div-profile-stats .profile-attribute .icon-container{
+    min-height: 74px;
+}
+
+.profile-container .div-profile-stats .earned .icon-container img {
+    margin-top: 12px;
+}
+
+.profile-container .div-profile-stats .icon-container img {
+    width: 60%;
+    max-width: 60px;
+}
+
+.profile-container .div-profile-stats .profile-attribute .p-number {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.profile-container.mobile-view .div-profile-stats .profile-attribute .p-number {
+    font-size: 20px;
+}
+
+
+.profile-container .div-profile-stats .profile-attribute .p-text {
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+
+.profile-container .div-profile-stats .rating-and-availability .user-rating {
+    border-top-left-radius: 10px;
+    background-color: #FB8A12; /*orange*/
+    padding: 48px 5px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+
+.profile-container .div-profile-stats .rating-and-availability .user-rating .rating-number {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.profile-container .div-profile-stats .rating-and-availability .user-rating .stars {
+    color: white;
+    display: block;
+    margin-top: 30px;
+}
+
+.profile-container .div-profile-stats .rating-and-availability .user-rating .stars .fa {
+    font-size: 14px;
+}
+
+.profile-container .div-profile-stats .rating-and-availability .user-rating .rating {
+    background-color : #FB8A12;
+    margin-right: 0px;
+}
+
+.profile-container .div-profile-stats .rating-and-availability .user-rating .rating li{
+    font-size: 16px;
+    color: #fff;
+}
+
+.profile-container .div-profile-stats .rating-and-availability .user-info-status {
+    padding: 30px 12px;
+    position: relative;
+}
+
+.profile-container.mobile-view .div-profile-stats .rating-and-availability .user-info-status {
+    padding: 8px 12px 30px 12px;
+    position: relative;
+}
+
+
+.profile-container.profile-page .div-profile-stats .rating-and-availability .user-info-status {
+    padding: 20px 12px 0px;
+}
+
+@media screen and (max-width: 360px) {
+    .profile-container.profile-page .div-profile-stats .rating-and-availability .user-info-status {
+        margin-left: 10%;
+        padding-left: 5px;
+        padding-right: 33px;
+    }
+}
+
+.profile-container.profile-page .div-profile-stats .user-info-status .username {
+    margin-bottom: 0px;
+}
+
+.profile-container .div-profile-stats .user-info-status .availability-status {
+    margin-top: 10px;
+    font-size: 98%;
+}
+
+.profile-container.profile-page .div-profile-stats .user-info-status .availability-status {
+    margin-top: 5px;
+}
+
+.profile-container .div-profile-stats .user-info-status .availability-status span.text-available {
+    color:#33C175;
+}
+
+.profile-container .div-profile-stats .user-info-status .availability-status span.text-not-available {
+    color: #D9534F;
+}
+
+.profile-container .div-profile-stats .user-info-status .availability-status img {
+    vertical-align: bottom;
+}
+
+.profile-container .div-profile-stats .user-info-status button {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    padding: 2px 20px 1px;
+    position: absolute;
+    bottom: 5px;
+}
+.profile-container .div-profile-stats .user-info-status button,
+.profile-container .set-skills-and-rates button,
+.profile-container .staffer-rate button,
+.profile-container .div-profile-stats .user-info-status .button:hover,
+.profile-container .set-skills-and-rates .button:hover,
+.profile-container .div-profile-stats .user-info-status .button.activated,
+.profile-container .set-skills-and-rates .button .button.activated {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    padding: 2px 20px 1px;
+    color: #fff;
+    background-color: #3498DB;
+}
+
+.profile-container .staffer-rate button.color-theme-green {
+    background-color: #60CE94;
+    margin-top:50px;
+}
+
+
+.profile-container.profile-page .staffer-profile {
+    margin-top: 5px;
+}
+
+.profile-container.profile-page .staffer-profile .rating {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+.profile-container.profile-page .staffer-profile .rating li {
+    font-size: 20px;
+}
+
+.profile-container.profile-page .staffer-profile p {
+    background-color: #FB8A12;
+    padding: 4px;
+    border-radius: 5px;
+    margin : 0px;
+    color: #FFF;
+}
+
+
+.hire-a-staffer-container .availability-btn {
+    background-color: #fff;
+    color: #5FCE93;
+    border : 1px solid #EEEEEE;
+}
+
+.profile-container .staffer .staffer-rate .not-availability-btn,
+.hire-a-staffer-container .not-availability-btn {
+    background-color: #fff;
+    color: #F66A58;
+    border : 1px solid #EEEEEE;
+}
+
+.profile-container.mobile-view .staffer .staffer-rate {
+    text-align: initial;
+}
+
+.profile-container .staffer .staffer-rate .not-availability-btn{
+    margin-top: 20px;
+    /*margin-right: 20px;*/
+}
+
+.hire-a-staffer-container span.text-available,
+.hire-a-staffer-container span.text-not-available,
+.text-not-available {
+    vertical-align: top;
+}
+
+.profile-container .set-skills-and-rates-mobile-view button {
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    padding: 2px 20px 1px;
+    color: #fff;
+    background-color: #3498DB;
+    margin-left: 15px;
+}
+
+.profile-container .set-skills-and-rates-mobile-view {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.profile-container .set-skills-and-rates,
+.profile-container .staffers-heading-container {
+    padding-left: 15px;
+    padding-top: 28px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.profile-container .set-skills-and-rates.mobile-view {
+    border: none;
+}
+
+.profile-container .set-skills-and-rates.mobile-view h3 {
+    margin-bottom: 0px;
+}
+
+.profile-container .set-skills-and-rates .skill-set-btn-container {
+    text-align: right;
+    padding-right: 3%;
+}
+
+
+.profile-container .skills,
+.profile-container .staffer,
+.hire-a-staffer-container .staffer {
+    padding: 28px 3% 28px 15px;
+    background-color: #FCFCFC;
+    border-bottom: 1px solid #EEEEEE;
+    text-transform: capitalize;
+}
+
+.hire-a-staffer-container .staffer:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.hire-a-staffer-container .staffer:last-child,
+.profile-container .staffer:last-child,
+.profile-container .skills:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.profile-container .staffer .staffer-profile-img,
+.hire-a-staffer-container .staffer .staffer-profile-img {
+    position: relative;
+}
+
+.profile-container .staffer .staffer-profile-img img,
+.hire-a-staffer-container .staffer .staffer-profile-img img {
+    border-radius: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.hire-a-staffer-container .staffer .staffer-profile-img img,
+.profile-container .staffer .staffer-profile-img img {
+    max-height: 135px;
+    max-width: 135px;
+    min-height: 135px;
+    min-width: 135px;
+}
+
+.hire-a-staffer-container.mobile-view .staffer .staffer-profile-img img,
+.profile-container.mobile-view .staffer .staffer-profile-img img {
+    max-height: 75px;
+    max-width: 75px;
+    min-height: 75px;
+    min-width: 75px;
+}
+
+.hire-a-staffer-container.mobile-view .search-button{
+    text-align: left;
+    font-size: 16px !important;
+}
+
+@media screen and (max-width: 440px) {
+
+    .padding-left-35{
+        padding-left: 30px !important
+    }
+
+    .hire-a-staffer-container.mobile-view .staffer .staffer-profile-img img,
+    .profile-container.mobile-view .staffer .staffer-profile-img img  {
+        max-height: 50px;
+        max-width: 50px;
+        min-height: 50px;
+        min-width: 50px;
+    }
+
+    .hire-a-staffer-container.mobile-view .button{
+        font-size: 11px;
+    }
+
+    .img-top{
+        top: 20% !important;
+    }
+}
+
+.hire-a-staffer-container .staffer .staffer-profile-img img {
+    top: 45%;
+}
+
+.hire-a-staffer-container .staffer .staffer-details {
+    position: relative;
+}
+
+.hire-a-staffer-container .staffer .staffer-details .row-available-btn {
+    position: absolute;
+    bottom: 10px;
+}
+
+.profile-container .staffer .staffer-details h4,
+.profile-container .staffer .staffer-details h5,
+.hire-a-staffer-container .staffer .staffer-details h4,
+.hire-a-staffer-container .staffer .staffer-details h5 {
+    margin-bottom: 5px;
+}
+
+.hire-a-staffer-container .staffer .staffer-details h5 span {
+    color: #5FCE93;
+}
+.profile-container .staffer .staffer-details .stars,
+.hire-a-staffer-container .staffer .staffer-details .stars {
+    font-weight: 900;
+}
+
+.profile-container .staffer .staffer-details p,
+.hire-a-staffer-container .staffer .staffer-details p {
+    font-size: 13px;
+    color: #DEDEDE;
+}
+
+
+.hire-a-staffer-container .staffer .staffer-details p {
+    color:#BABABA;
+}
+
+.profile-container .staffer .staffer-rate {
+    position: relative;
+}
+
+.profile-container .staffer .staffer-rate .rate-me {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.profile-container .staffer .staffer-rate,
+.hire-a-staffer-container .staffer .staffer-rate {
+    text-align: right;
+}
+
+.profile-container .staffer .staffer-rate button,
+.hire-a-staffer-container .staffer .staffer-rate button {
+    padding: 10px 5%;
+}
+
+.hire-a-staffer-container.mobile-view .staffer .staffer-rate button p {
+    font-size: 20px;
+}
+
+.hire-a-staffer-container.mobile-view .staffer .staffer-rate button span {
+    font-size: 12px;
+}
+
+.hire-a-staffer-container .staffer .staffer-rate button {
+    width: 100%;
+}
+
+.profile-container .staffer .staffer-rate p,
+.hire-a-staffer-container .staffer .staffer-rate p{
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #FFF;
+}
+
+.profile-container.mobile-view .staffer .staffer-rate .per-hour,
+.hire-a-staffer-container .staffer .staffer-rate .per-hour {
+    font-size: 10px;
+}
+
+
+.profile-container .skills .skill-name {
+    font-size: 18px;
+    padding-top: 20px;
+    color : #4E4E4E;
+}
+
+.profile-container .skills .skill-rate {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    background-color:#999999;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+.refrain{
+    width: 20px;
+    height: 18px;
+    margin-top: -2px;
+}
+
+#custom-checbox{
+    padding-left:15px;
+    height: 60px;
+    width:100%;
+}
+#custom-checbox div.checkbox{
+    padding-top: 0px;
+}
+
+#custom-checbox i{
+    float: right;
+    width : 40px;
+    height: 40px;
+}
+
+#custom-checbox i::after{
+    top: 40%;
+    left: 20%;
+    width: 25px;
+}
+
+#custom-checbox > div.item-content{
+    margin-top: 2px;
+    font-weight : bold;
+}
+
+.selected-skill {
+    background-color:#F7F7F7!important;
+    color : #53A7DF;
+}
+.unselected-skill {
+    background-color: #FFFFFF!important;
+    color : #444444;
+}
+
+
+@media screen and (max-width: 360px) {
+    .profile-container.mobile-view .skills .skill-rate {
+        padding: 5%;
+    }
+    #view-broadcasted-job > div#view-broadcasted-job-lg{
+        display: none;
+    }
+
+    div#view-broadcasted-job-sm .rating i{
+        font-size : 23px;
+    }
+
+    .hidden-360{
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 360px) {
+    #view-broadcasted-job > div#view-broadcasted-job-lg{
+        display: block;
+    }
+    #view-broadcasted-job > div#view-broadcasted-job-sm{
+        display: none;
+    }
+}
+
+
+.profile-container .skills .skill-rate span {
+    font-size: 10px;
+}
+
+/* Restaurant Home page */
+
+.profile-logo-container img {
+    width: 100%;
+    margin-top: 8px;
+    min-width: 121px;
+    min-height: 121px;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.profile-container.profile-page .profile-logo-container img {
+    margin-top: 0px;
+}
+
+.profile-container.mobile-view .profile-logo-container img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.profile-container .profile-info h3 {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    margin-top: 6px;
+}
+
+/*.profile-container.mobile-view .profile-info h3 {
+    margin-top: 15px;
+}*/
+
+.profile-container .profile-info p {
+    margin-bottom: 2px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.profile-container .edit-restaurant {
+    margin-top: 20px;
+}
+
+.profile-container.mobile-view .edit-restaurant .button-blue-sleak {
+    padding: 2px 7px;
+}
+
+.restaurant-container {
+   padding: 0px 25px 25px;
+}
+
+
+.restaurant-container .restaurant-logo-container img {
+    width: 100%;
+}
+
+.restaurant-info-logo {
+    padding-top: 25px;
+}
+
+
+.restaurant-container .restaurant-attribute {
+    text-align: center;
+    border-left: 1px solid #EEEEEE;
+    padding-top: 25px;
+}
+
+.restaurant-container .restaurant-attribute .p-number {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.restaurant-container .restaurant-attribute .p-text {
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+/* hire a staffer */
+
+.hire-a-staffer-container .search-field {
+    border-right : 1px solid #EEEEEE;
+}
+
+.hire-a-staffer-container .search-field input {
+    width: 100%;
+    padding: 39.5px 5px;
+    border-top-left-radius: 10px;
+}
+
+
+.hire-a-staffer-container .div-date button,
+.hire-a-staffer-container .div-search button{
+    width: 100%;
+    border: none;
+    padding: 18.5px 8.5px;
+    border-radius: 0px;
+    font-size: 12px;
+}
+
+.date_selection .row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.hire-a-staffer-container .div-search button {
+    padding: 33.3px 8.3px;
+    border-top-right-radius: 10px;
+    font-size: 14px;
+}
+
+.hire-a-staffer-container .time-range-slider .rzslider {
+    margin: 50px 0 15px 0
+}
+
+.search-by-position{
+    width: 100%;
+    /*padding: 30px 5px;*/
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #333;
+    background-color: #FCFCFC;
+}
+
+.search-by-position option {
+    font-family: 'Lato', 'arial', 'sans-serif';
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.hire-a-staffer-container .row-search-and-filter {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.hire-a-staffer-container .fa-button,
+.help-container .fa-button {
+    background-color: #FCFCFC;
+    border: none;
+    border-left : 1px solid #EEEEEE;
+    width: 100%;
+    color: #3498DB;
+}
+
+.hire-a-staffer-container div.search-btn {
+    border-right: 1px solid #EEEEEE;
+}
+
+.hire-a-staffer-container div.filter-btn button{
+    border-top-right-radius: 10px;
+}
+
+.hire-a-staffer-container .filter-tabs:not(:last-of-type) {
+    border-right: 1px solid #EEEEEE;
+}
+
+.hire-a-staffer-container .filter-tabs button {
+    background-color: #F8F8F8;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.hire-a-staffer-container .filter-tabs button.active {
+    background-color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 800;
+    color: #3498DB
+}
+
+.hire-a-staffer-container .row-filter .fa {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    padding-top: 9px;
+    background-color: #999999
+}
+
+.hire-a-staffer-container .filter-tabs button.active .fa {
+    background-color: #3498D8;
+    color: #FFFFFF;
+}
+
+.hire-a-staffer-container .tabs {
+    position: initial;
+}
+
+.hire-a-staffer-container .tab-item:not(:last-of-type) {
+    border-right: 2px solid #EEEEEE;
+}
+
+.hire-a-staffer-container .tab-item {
+    max-width: 100%;
+    background-color: #F8F8F8;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px !important;
+    font-weight: 800;
+    padding-bottom: 58px;
+}
+
+.hire-a-staffer-container .tab-item:hover {
+    color: #3498D8 !important;
+}
+
+.hire-a-staffer-container .tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
+    background-color: #FFFFFF;
+    color: #3498D8;
+}
+
+.hire-a-staffer-container .tabs-icon-left > .tabs .tab-item .icon{
+    padding-right: 8px;
+}
+
+.hire-a-staffer-container .tabs-icon-left > .tabs .tab-item .tab-title {
+    vertical-align: sub;
+}
+
+.hire-a-staffer-container .ion-social-usd:before,
+.hire-a-staffer-container .ion-star:before,
+.hire-a-staffer-container .ion-location:before {
+    font-size: 18px !important;
+}
+
+.hire-a-staffer-container .tab-nav.tabs {
+    border: none !important;
+    border-bottom: 1px solid #EEEEEE;
+    margin-bottom: 10px;
+}
+
+.hire-a-staffer-container .mobile-view .tab-item {
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+/* help css */
+
+.newFeatureLink{
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.help-container {
+    background-color: #FCFCFC;
+}
+
+.help-container.contact-box {
+    padding-top: 20px;
+}
+
+.help-container .contact-partials .fa {
+    float: left;
+    margin-right: 6%;
+    margin-left: 12%;
+}
+
+.help-container .contact-partials h3,
+.help-container .contact-partials h4 {
+    margin-top: 0px;
+    color: #3498DB;
+}
+
+.help-container .search-field input{
+    width: 100%;
+    padding: 30px 15px;
+}
+
+.help-container .row-heading-edit {
+    background-color: white;
+}
+
+.help-container .row-heading-edit,
+.help-container .row-article {
+    padding: 30px 10px;
+}
+
+.help-container.mobile-view .row-heading-edit {
+    padding: 5px 10px;
+}
+
+.help-container .row-article p {
+    color: #666666;
+}
+
+.help-container .row-article i.fa {
+    background-color: #EEEEEE;
+    border-radius: 100px;
+    color: #FFF;
+    padding: 10px;
+}
+
+.help-container .article-about {
+    padding: 20px 5px;
+}
+
+.help-container.mobile-view .article-about {
+    padding: 15px 5px;
+}
+
+.help-container.mobile-view .contact-partials .fa{
+    margin-left: 20px;
+}
+
+.help-container.mobile-view .row-contact {
+    padding: 10px 5px;
+}
+
+/* set availability */
+
+
+.available-container .row-update-or-cancel {
+    background-color: #FCFCFC;
+    padding: 25px 0px !important;
+}
+
+.available-container .availability-schedule-mobile-view.row-update-or-cancel {
+    padding: 0px 15px !important;
+}
+
+.available-container .row-heading-avaiable {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #FFFFFF;
+    /*padding: 25px;*/
+}
+
+.available-container .availability-tabs:hover {
+    cursor: pointer;
+}
+.available-container .availability-tabs {
+    display: inline-block;
+    width: 14%;
+    border-bottom: 5px solid #B9B9B9;
+}
+
+.availableAllDays{
+    background-color: #3498DB;
+    color : #fff;
+    border-color : #3498DB;
+}
+.availableAllDays:hover{
+    color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+    .available-container .availability-tabs {
+        width: 27%;
+    }
+    .available-container .availability-tabs p {
+        font-size: 13px;
+    }
+}
+
+.available-container .availability-schedule-mobile-view .availability-tabs {
+    width: 32%;
+    padding-bottom: 0px;
+}
+
+.available-container .availability-schedule-mobile-view .AM,
+.available-container .availability-schedule-mobile-view .PM {
+    height: 55px;
+}
+
+.available-container .availability-schedule-mobile-view .item-toggle .toggle {
+    left: 26%;
+    width: 98px;
+}
+
+@media screen and (max-width: 400px) {
+    .available-container .availability-schedule-mobile-view .item-toggle .toggle {
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .available-container .availability-schedule-mobile-view .item-toggle .toggle {
+        left: 15%;
+    }
+}
+
+@media only screen and (max-width: 400px) and (min-width: 320px){
+    .noti-button{
+        min-width: 170px!important;
+    }
+
+}
+
+.available-container .availability-tabs p {
+    color: #B9B9B9;
+}
+
+.available-container .availability-schedule-mobile-view .availability-tabs p {
+    font-size: 14px;
+}
+
+.available-container .availability-tabs.active {
+    border-bottom: 5px solid #3498DB;
+}
+
+
+.available-container .availability-tabs.active p {
+    color: #3498DB;
+}
+
+.available-container .day-date {
+    padding-top: 7px;
+}
+
+.available-container .day-date p {
+    font-size: 11px;
+}
+
+
+.available-container .day-date p:first-child {
+    color: #FB8A12;
+    margin-bottom: 1px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.available-container .toggles {
+    padding: 0px 0px 10px 0px !important;
+}
+
+.available-container .toggles .item.item-toggle {
+    font-size: 11px;
+    height: 50px;
+    padding-right: 75px;
+}
+
+.available-container .toggles .item.item-toggle .toggle {
+    right: inherit !important;
+}
+
+.available-container .toggles .item {
+    background-color: inherit;
+}
+
+.available-container .toggles .slider-container {
+    margin-right:0px;
+    margin-left: 0px;
+}
+
+.available-container  .toggle input:checked + .track {
+    border-color: #4FB74C !important;
+    background-color: #4FB74C !important;
+    font-size: 12px;
+}
+
+.available-container .toggle input:checked + .track,
+.available-container .toggle.toggle-text.disable-user-behavior .track {
+    width: 75px !important;
+}
+
+.available-container .PM .toggle input:checked + .track {
+    border-color: #3498DB !important;
+    background-color: #3498DB !important;
+    font-size: 12px;
+}
+
+.available-container .toggle.toggle-text.disable-user-behavior .track {
+    background-color: #a5a5a5;
+}
+
+.available-container .availability-schedule-mobile-view .item-toggle {
+    padding-left: 25px;
+}
+
+/*.available-container .hidden-xs .list li label {
+    padding-left: 0px;
+    padding-top: 10px;
+}*/
+
+.available-container .hidden-xs .list .item {
+    margin:0px;
+}
+
+.available-container .hidden-xs .inline-schedules {
+    width: 14%;
+    border: 1px solid #EEEEEE;
+}
+
+.available-container .hidden-xs .list .item .radio-content {
+    font-size: 11px !important;
+}
+
+.available-container .item-radio .item-content {
+    padding: 16px 49px 16px 16px !important;
+}
+
+.available-container .item-radio .radio-content {
+    font-size: 11px;
+}
+
+/*.available-container .hidden-xs .list li label input {
+    margin-left: 0px !important;
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.available-container .hidden-xs .list li label input:after {
+    width: 10px !important;
+    height: 4px !important;
+}*/
+
+
+/* SET SKILLS */
+
+.set-skills-container .row-heading-skills {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.set-skills-container .skills {
+    background-color: #FCFCFC;
+}
+
+.set-skills-container .skills:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+
+.set-skills-container .row-heading-skills,
+.set-skills-container .skills {
+    padding: 25px;
+}
+
+.set-skills-container .skills .skill-name {
+    font-size: 18px;
+    padding-top: 20px;
+    color : #4E4E4E;
+    text-transform: capitalize;
+}
+
+.set-skills-container .skills .skill-rate {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    background-color: #3498DB;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+a#skillButton{
+    display: inline-block;
+    width: 100%;
+    padding: 1%;
+    padding-top: 4%;
+    color:#fff;
+}
+
+a#skillButton:hover{
+    color:#fff;
+}
+
+@media screen and (max-width: 360px) {
+    .set-skills-container .skills .skill-rate {
+        padding: 5%;
+    }
+}
+
+.set-skills-container .skills .skill-rate span {
+    font-size: 10px;
+}
+
+
+/* EMPLOYMENT HISTORY */
+
+.employment-history-container .row-heading-employment-history{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.employment-history-container .jobs {
+    background-color: #FFFFFF;
+}
+
+.employment-history-container .jobs #profile_pic {
+    max-width: 90px;
+    max-height: 80px;
+}
+
+.employment-history-container .jobs .rating {
+    background-color: #FCFCFC;
+}
+
+.employment-history-container .jobs .rating-text p i {
+    margin-right: 10px;
+}
+
+.employment-history-container .jobs.mobile-view .rating li,
+.hire-a-staffer-container.mobile-view .staffer .rating li,
+.profile-container.mobile-view .staffer .staffer-details .rating li{
+    font-size: 21px;
+}
+
+.employment-history-container .jobs:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+
+.employment-history-container .row-heading-employment-history{
+    padding: 25px;
+}
+
+.employment-history-container .jobs .skill-place-container{
+    padding: 12px 20px;
+}
+
+.employment-history-container .jobs .timepsan-container {
+    padding: 20px 4%;
+}
+
+
+.employment-history-container .jobs .timepsan-container-custom {
+    padding: 35px 4%;
+}
+
+.employment-history-container .jobs .hidden-lg .timepsan-container {
+    padding: 20px 30px;
+}
+
+.employment-history-container .jobs .hidden-lg .timepsan-container-custom  {
+    padding: 35px 30px;
+}
+
+.employment-history-container .jobs .timepsan-container-custom p.rating-text {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.employment-history-container .jobs .timepsan-container-custom p.rating-check {
+    font-size: 25px;
+    margin: 0px;
+}
+
+.employment-history-container .jobs .waiting-for-ratings-jobs .timepsan-container-custom p {
+    color: #E4E4E4;
+}
+
+.employment-history-container .jobs .skill-name {
+    font-size: 18px;
+    padding-top: 20px;
+    color : #4E4E4E;
+    text-transform: capitalize;
+}
+
+.employment-history-container .jobs h2 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.employment-history-container .jobs .skill-and-place p {
+    /*font-weight: bold;*/
+}
+
+.employment-history-container .jobs .skill-and-place .min-width {
+    min-width: 100px;
+}
+
+
+.employment-history-container .jobs .timespan p {
+    color: #B3B3B3;
+    /*font-size: 18px;*/
+}
+
+.employment-history-container .jobs .hidden-lg .timespan p {
+    line-height: 30px;
+}
+
+.employment-history-container .jobs.mobile-view .timespan p {
+    color: #B3B3B3;
+    font-size: 18px;
+}
+
+
+.company-name-staffer-agree{
+    height: 25px !important;
+    width: 150px;
+    display: inline-block !important;
+    background-color: #DFDFDF;
+    padding: 5px 10px 5px 10px!important;
+    font-style: italic;
+    border-color: #EEEEEE!important;
+    border-radius: 5px;
+}
+
+.agreement-date{
+   font-style: italic;
+   font-weight: bold;
+}
+
+.est-agreement{
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+/* Notifications */
+.notifications-container .day p {
+    padding: 5px;
+    background-color: #F0F0F0;
+    border:1px solid #333333;
+    color: #333333;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 11px;
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+.notifications-container .day p.day-today {
+    background-color: #3498DB;
+    border:1px solid #3498DB;
+    color: white;
+}
+
+.notifications-container .day p.day-yesterday {
+    border:1px solid #3498DB;
+    color: #3498DB;
+}
+
+
+.notifications-container .day .hide-vertical-line {
+    display: none;
+}
+.notifications-container .day .vertical-line {
+    width: 2px;
+    height: 20px;
+    background-color: #333333;
+    margin-left: 45px;
+}
+
+.notifications-container .day .vertical-line.day-today,
+.notifications-container .day .vertical-line.day-yesterday {
+    background-color: #3498DB;
+}
+
+
+.notifications-container .day-notifications {
+    background-color: #FFF;
+    padding: 15px 8px;
+    border-bottom: 1px solid #EEEEEE
+}
+
+.notifications-container .day-notifications:hover {
+    cursor: pointer;
+}
+
+
+.notifications-container .day-notifications .time{
+    color: orange;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.notifications-container .day-notifications .notification-type{
+    font-size: 12px;
+    border-radius: 100px;
+    text-align: center;
+    width: 20%;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.notifications-container .hidden-md .day-notifications .notification-type {
+    width: 50%;
+}
+
+.notifications-container .day-notifications .red-notification {
+    background-color: #EB5A46;
+}
+
+.notifications-container .day-notifications .blue-notification {
+    background-color: #3498DB;
+}
+
+.notifications-container .day-notifications .green-notification {
+    color:white;
+    background-color: #60CE94;
+}
+
+
+.notifications-container .day-notifications .orange-notification {
+    background-color: #FB8A12;
+}
+
+
+.notifications-container .job-offer {
+    border: 1px solid #EAEAEA;
+    border-radius: 7px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    float: right;
+    background-color: #FFF;
+    margin-bottom: 15px !important;
+    margin-top: 15px !important;
+}
+
+.notifications-container .job-offer .entity-info {
+    padding-top: 15px;
+    background-color: #FCFCFC;
+    border-top: 1px solid #EAEAEA;
+    margin-top: 10px !important;
+}
+
+.notifications-container .job-offer .entity-info .display-inline-block.vertical-align-top{
+    margin-top: 5px;
+}
+
+.notifications-container .job-offer .entity-info img {
+    border: 1px solid #EAEAEA;
+    border-radius: 100px;
+    max-height: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    min-width: 50px;
+    padding: 5px;
+}
+
+.notifications-container .hidden-md .job-offer .entity-info .magirnally-left p{
+    margin-left: 53px;
+}
+
+.notification-body h1 {
+    font-weight: 400;
+}
+
+.notification-body p {
+    color: #000;
+}
+
+.shift-req-profile, .broad-req-profile{
+    margin-top: 10px;
+}
+
+.shift-req-profile img, .broad-req-profile img{
+    width: 50%;
+    border-radius: 5px;
+}
+
+@media screen and ( min-width: 450px ) {
+    .shift-req-profile img, .broad-req-profile img{
+        width: 170px !important;
+    }
+    .shift-req-detail {
+        text-align: center !important;
+    }
+}
+
+@media screen and (min-width: 770px) {
+
+    .notifi-shift-request, .notifi-broad-request {
+        position: relative;
+        height: 230px;
+        margin-top: 40px;
+    }
+    .shift-req-timing, .shift-req-profile, .shift-req-detail, .broad-req-timing, .broad-req-profile, .broad-req-detail{
+        position: absolute;
+    }
+
+    .shift-req-timing, .broad-req-timing{
+        width: 32%;
+        top: 0px;
+        left: 60%;
+        border: none;
+    }
+
+    .shift-req-profile, .broad-req-profile{
+        width: 23%;
+        top: 0px;
+        left: 0%;
+        text-align: left!important;
+    }
+    .shift-req-profile img, .broad-req-profile img{
+        width: 150px !important;
+    }
+
+    .shift-req-detail, .broad-req-detail{
+        top: 0px;
+        left: 25%;
+    }
+
+}
+
+
+
+/* edit and profile css -theme Edit */
+
+.profile-content, .page-content {
+    background-color: #fff;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin-top: -430px;
+    color: #070707;
+    margin-bottom: 45px;
+}
+
+.profile-bg {
+    height: 550px;
+    background-color: #eee;
+    background-image: none;
+    background-size: cover;
+}
+
+.profile-avatar > img {
+    background-color: white;
+    border: 10px solid #fff;
+    box-shadow: 0 0 1px;
+    -moz-box-shadow: 0 0 1px;
+    -webkit-box-shadow: 0 0 1px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    max-width: 250px;
+    max-height: 250px;
+    min-width: 120px;
+    min-height: 120px;
+}
+
+
+.profile-avatar h4,
+.profile-avatar h5 {
+    margin-bottom: 15px;
+}
+
+.profile-avatar h5,
+.profile-avatar span {
+    font-size: 13px;
+}
+
+
+.profile-avatar span {
+    display: initial;
+    color: #333333;
+    font-weight: 600;
+}
+
+.profile-inner button {
+    float: right;
+    width: 22%;
+    top: 0px;
+    padding: 5px 10px;
+}
+
+.profile-page .btn {
+    color: black;
+    font-size: 12px;
+    padding: 8px;
+    border: 0px;
+    transition: all 0.5s ease-in-out 0.15s;
+    -moz-transition: all 0.5s ease-in-out 0.15s;
+    -webkit-transition: all 0.5s ease-in-out 0.15s;
+}
+
+.profile-page .fa-pencil{
+    margin-right: 2px;
+}
+
+.profile-page .rating {
+    background-color: #F7F7F7;
+}
+
+.editable-wrap .editable-controls > input, .editable-wrap .editable-controls > select, .editable-wrap .editable-controls > textarea {
+    padding: 5px;
+}
+
+.editable-click, a.editable-click{
+    border-bottom: none;
+}
+
+.editable-click, a.editable-click {
+    border-bottom: none;
+}
+
+.username {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1;
+    color: #333333;
+}
+
+.edit-user-profile .inner {
+    padding: 0px;
+}
+
+.edit-user-profile .inner .edit-heading {
+    border-bottom: 1px solid #EEEEEE;
+    padding: 30px;
+    text-align: left;
+}
+
+.edit-user-profile .inner form {
+    padding: 35px 20px;
+}
+
+.edit-user-profile .inner .theme-row {
+    margin-bottom: 40px;
+}
+
+.edit-user-profile .inner .theme-row .col-xs-12 {
+    padding: 8px;
+}
+
+.edit-user-profile .inner .button-green-sleak,
+.edit-user-profile .inner .button-blue-sleak {
+    width: 30%;
+    padding: 0px;
+}
+
+.theme-row .user-rating {
+    font-size: 15px;
+}
+.rating {
+    background-color: #FFFFFF;
+}
+
+.popup-body .rating {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.rating li {
+    font-size: 36px;
+    display: inline-block;
+    color: #FB8A12;
+}
+
+/* NOT FOUND */
+
+.div-not-found, .div-not-found-home,
+.notification-popup {
+    color: #CCCCCC;
+    text-align: center;
+}
+
+.div-not-found {
+    padding: 150px 0px;
+}
+
+.div-not-found h3,
+.div-not-found p {
+    color: #CCCCCC !important;
+}
+
+
+.div-not-found-home {
+    padding: 10px 0px;
+}
+
+.div-not-found-home h3,
+.div-not-found-home p {
+    color: #CCCCCC !important;
+}
+
+
+/* AGREEMENT */
+
+.agreement {
+    background-color: #FCFCFC;
+    padding: 25px;
+    /*overflow: scroll;
+    -webkit-overflow-scrolling: touch;*/
+    height: 600px;
+    border: 1px solid #EEEEEE;
+}
+
+.clause-agree-check{
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.clause-agree-check span {
+    position: absolute;
+    top: -1px;
+    left: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.agreement-error{
+    display: block;
+    color : #EB5A46;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+@media screen and (max-height: 768px) {
+    .agreement {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .datepicker{
+        width: auto !important;
+    }
+}
+
+@media screen and (max-height: 625px) {
+    .agreement {
+        height: 400px;
+    }
+}
+
+@media screen and (max-height: 570px) {
+    .agreement {
+        height: 300px;
+    }
+}
+
+/*@media screen and (max-height: 570px) {
+    .agreement {
+        height: 150px;
+    }
+}*/
+
+.agreement .light-notes {
+    color: #999999;
+    margin-top: 0px;
+}
+
+.agreement p:not(.light-notes) {
+    font-size: 14px;
+    color: #333;
+}
+
+.accept-reject {
+    padding-top:25px;
+    padding-bottom: 0px;
+}
+
+.agreement {
+    font-family: 'Lato'
+}
+
+.agreement.privacy ol {
+    counter-reset: item;
+}
+
+.agreement.privacy  ol li {
+    color: #333;
+    display: block;
+    font-size: 14px;
+}
+
+.agreement.privacy  ol li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    color: #333;
+}
+
+
+/* Time picker */
+
+.ionic_timepicker_popup .heading,
+.ionic_timepicker_popup .button_set,
+.ionic_timepicker_popup .button_close {
+    background-color: #3498DB !important;
+}
+/* Styles go here */
+
+
+.toggle-text > .track {
+
+  width: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #a5a5a5;
+
+}
+
+.toggle-text .handle {
+  left: 7px;
+}
+
+.toggle-text .handle-text {
+  font-size: 14px;
+  color: white;
+  position: absolute;
+}
+
+.toggle-text .handle-text-false {
+  left: 33px;
+  top:4px;
+}
+
+.toggle-text .handle-text-true {
+    left: -32px !important;
+    top: 4px;
+}
+
+.toggle-text input:checked + .track .handle {
+  -webkit-transform: none;
+  -moz-transform: none;
+  transform: none;
+  left: calc(100% - 34px);
+
+/*  -webkit-transform: translate3d(0, 0,0);*/
+}
+
+
+.track-text {
+  line-height: 26px;
+  color: white;
+  font-size: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* coming soon */
+.coming-soon {
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+}
+
+.coming-soon strong { font-weight: 700; }
+
+.coming-soon a,
+.coming-soon a:hover,
+.coming-soon a:focus {
+    color: #42bfc2;
+    text-decoration: none;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+}
+
+.coming-soon h2 {
+    margin-top: 10px;
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 54px;
+}
+
+.coming-soon img { max-width: 100%; }
+
+/*::-moz-selection { background: #42bfc2; color: #fff; text-shadow: none; }
+::selection { background: #42bfc2; color: #fff; text-shadow: none; }*/
+
+
+/***** Coming Soon *****/
+
+.coming-soon {
+    margin: 0 auto;
+    background: #60CE94;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.coming-soon .logo {
+    padding-bottom: 20px;
+}
+
+.coming-soon .logo h1 {
+    margin: 0;
+}
+
+.coming-soon .logo a {
+    display: inline-block;
+    width: 200px;
+    height: 110px;
+    background: url(../img/logo.png) center center no-repeat;
+    text-indent: -99999px;
+}
+.coming-soon .logo a:focus { outline: 0; }
+
+.coming-soon .logo a:hover { background-image: url(../img/logo-hover.png); }
+
+.coming-soon .logo a:before {
+    content: url(../img/logo-hover.png);
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.coming-soon p {
+    margin: 20px 0 10px 0;
+    padding: 0 120px;
+    font-size: 15px;
+    line-height: 36px;
+    color : #FFF;
+}
+
+.coming-soon .timer {
+    margin-top: 20px;
+}
+
+.coming-soon .timer .days-wrapper,
+.coming-soon .timer .hours-wrapper,
+.coming-soon .timer .minutes-wrapper,
+.coming-soon .timer .seconds-wrapper {
+    display: inline-block;
+    width: 90px;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.coming-soon .timer .days,
+.coming-soon .timer .hours,
+.coming-soon .timer .minutes,
+.coming-soon .timer .seconds {
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.coming-soon .contact {
+    font-size: 20px;
+}
+
+.coming-soon .contact a {
+    color: #fff;
+}
+
+/* rz slider */
+.rzslider .rz-bubble {
+    border: 1px solid #3498DB;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #3498DB;
+    padding: 1px 5px;
+}
+
+.rzslider .rz-pointer,
+.rzslider[disabled] .rz-pointer {
+    background-color: #FFF;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 4px 0px #E6E6E6;
+}
+
+.rzslider .rz-bar.rz-selection{
+    background-color: #3498DB;
+}
+
+.rzslider .rz-pointer.rz-active:after {
+    background-color: #fff !important;
+}
+
+.isBrowserView {
+    overflow-y: auto !important;
+}
+
+
+.cg-notify-message.alert-success.cg-notify-message-center{
+    top:50% !important;
+}
+
+select{
+    height:100%;
+    background-color: white !important;
+}
+
+.timeTracker p{
+    font-size: 25px;
+    font-weight: bolder;
+    /*display: inline-block;*/
+}
+
+#timeWorked p{
+    font-size : 18px;
+}
+
+.notificationBtnDistance{
+    margin-left: 70px;
+}
+
+.timeText{
+    font-size: large !important;
+    padding-bottom: inherit;
+}
+
+.newMsgText{
+        color:black;
+        font-size:10px
+    }
+
+.flex-center{
+        height: 110px;
+    }
+#notificationTextBody {
+        width: 80%;
+        padding-left: 90px;
+        position: absolute;
+        padding-top: 5px;
+    }
+
+.empProfileImg{
+    border-radius: 5px;
+    width: 80px;
+}
+
+.empProfileAdminImg{
+    border-radius: 5px;
+    width: 80px;
+}
+
+.showButtonInMobile{
+    display: none;
+}
+#adminNotifyButton{
+        border-radius:5px;
+        margin-left:100px;
+    }
+
+/* Staffer*/
+
+
+#stafferPanelNotifiction{
+    margin-left:230px;
+}
+
+.stafferNotifyImg{
+    padding-left: 22px;
+}
+.shiftAwaitText{
+    margin-left: 40px !important;
+    border-radius: 5px !important;
+    margin-top: 70px !important;
+    font-size: 12px;
+}
+
+.shiftAwaitTextRejected{
+    margin-left: 90px !important;
+    border-radius: 5px !important;
+    margin-top: 70px !important;
+    font-size: 12px;
+}
+
+.preTagBackgroundColor {
+    font-family: inherit;
+    background: white;
+    word-break: break-word;
+}
+
+ .showShiftNotesNotify{
+        padding-left: 90px;
+        padding-top: 20px;
+    }
+
+ .showAvailableShiftsNotify{
+        margin-left: 91px;
+        margin-top: 20px;
+    }
+ .margin-bottom-5{
+     /*margin-bottom: 15px*/
+ }
+
+ .button-orange-sleak{
+     background: orange;
+     color: white;
+ }
+ .button-green-sleak{
+     color: white !important;
+ }
+
+ .shiftRequestNotify{
+     margin-left: 90px !important;
+ }
+
+ .button-red-sleak{
+     color: white !important;
+ }
+
+ /*
+ */
+.button-blue-sleak, .button-green-sleak, .button-red-sleak{
+        /*font-size: small !important;*/
+        /*width: 150px;*/
+        padding-right: 11px;
+        padding-left: 11px;
+        text-align: center;
+}
+
+
+.imgDivDesktopSize{
+        margin-left: 170px;
+        position: absolute;
+    }
+#buttonMoreDetails{
+        background-color: white
+    }
+
+/* Media Queries*/
+
+@media only screen and (min-width: 250px) and (max-width: 720px) {
+     .center-when-small{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 250px) and (max-width: 345px) {
+
+
+    /* Staffer Notification*/
+
+    .paymentHistory{
+        font-size: 15px !important;
+    }
+
+    .imgDivDesktopSize{
+        margin-left: 0px;
+        position: relative;
+    }
+
+    .notifyWidth{
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .showAvailableShiftsNotify{
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 0px;
+        margin-top: 130px;
+        margin-left: 75px;
+    }
+
+    .showShiftNotesNotify{
+        padding-left: 73px;
+        padding-top: 130px;
+    }
+
+    .shiftAwaitTextRejected{
+        margin-left: 75px !important;
+        border-radius: 5px !important;
+        margin-top: 150px !important;
+        font-size: 12px;
+    }
+
+    .shiftAwaitText{
+        margin-left: 20px !important;
+        border-radius: 5px !important;
+        margin-top: 140px !important;
+        padding-left:5px;
+        padding-right:5px;
+        font-size: 12px;
+    }
+
+
+    #stafferPassButtons{
+        margin-top: 20px;
+        margin-left: 0px;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    #stafferPanelNotifiction{
+        margin-left:75px
+    }
+    /*End*/
+    #timeText{
+        margin-bottom: 52px;
+    }
+
+    #adminNotifyButton{
+        border-radius: 5px;
+        margin-left: 85px;
+        margin-top: 125px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .showButtonInMobile{
+        display: inline;
+    }
+
+    .notification-type{
+         margin-left: 85px;
+         height:30px;
+         width: 45% !important;
+    }
+    #notificationTextBody{
+        font-size: small;
+        padding-left: 75px;
+        position: absolute;
+        padding-top: 5px;
+        width: 75%;
+    }
+
+
+
+    .empProfileImg{
+        /*height: 45px !important;*/
+        border-radius: 5px;
+        /*width:34%;*/
+        /*margin-right: 80%;*/
+    }
+
+    .timeText{
+        font-size: small !important;
+        padding-bottom: inherit;
+    }
+
+    .button-blue-sleak, .button-green-sleak, .button-red-sleak{
+        /*font-size: small !important;*/
+        /*width: 100px;*/
+        padding-right: 11px;
+        padding-left: 11px;
+        text-align: center;
+    }
+
+    .notificationBtnDistance {
+        margin-left: 56px;
+        padding-top: 80px;
+    }
+
+     #viewProfileBtn{
+        padding-left:3px;
+        padding-right: 3px;
+        display: block;
+        width: 70%;
+    }
+
+    #buttonAdminNotify{
+        padding-right: 20px;
+        padding-left: 20px;
+        display: block;
+       width: 70%;
+    }
+
+    #buttonMoreDetails{
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-bottom: 15px;
+        border-radius: 3px;
+        background-color: white;
+        width: 70%;
+    }
+    .btnHireReject{
+
+        /*margin-bottom: 15px;*/
+        /*width: 70%*/
+    }
+    #rejectBtn{
+        padding-left: 31px;
+        padding-right: 31px;
+    }
+
+
+    .viewProfileNotify{
+        padding-right: 33px;
+        padding-left: 33px;
+         /*margin-bottom: 15px;*/
+    }
+    .flex-center{
+        height: 100px;
+        position: absolute;
+        padding-top: 90px;
+        padding-left: 43px;
+
+    }
+    .newMsgText{
+        color:black;
+        font-size:10px;
+    }
+}
+
+@media only screen and (min-width: 346px) and (max-width: 359px) {
+
+    .paymentHistory{
+        font-size: 15px !important;
+    }
+
+     #buttonMoreDetails{
+        padding-right: 3px;
+        padding-left: 3px;
+        margin-bottom: 15px;
+        border-radius: 3px;
+        width: 69%;
+
+    }
+
+    .imgDivDesktopSize{
+        margin-left: 0px;
+        position: relative;
+    }
+
+    .showAvailableShiftsNotify{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        margin-top: 90px;
+        margin-left: 75px;
+    }
+
+    .showShiftNotesNotify{
+        padding-left: 73px;
+        padding-top: 100px;
+    }
+
+    .shiftAwaitTextRejected{
+        margin-left: 75px !important;
+        border-radius: 5px !important;
+        margin-top: 150px !important;
+        font-size: 12px;
+    }
+
+     .shiftAwaitText{
+        margin-left: 20px !important;
+        border-radius: 5px !important;
+        margin-top: 120px !important;
+        padding-left:5px;
+        padding-right:5px;
+        font-size: 12px;
+    }
+
+
+    #stafferPassButtons{
+        margin-top: 20px;
+        margin-left: 0px;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    #stafferPanelNotifiction{
+        margin-left:75px
+    }
+    #timeText{
+        margin-bottom: 52px;
+    }
+
+    #adminNotifyButton{
+        border-radius: 5px;
+        margin-left: 85px;
+        margin-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .showButtonInMobile{
+        display: inline;
+    }
+
+    .notification-type{
+         margin-left: 85px;
+         height:30px;
+         width: 45% !important;
+    }
+    #notificationTextBody{
+        font-size: small;
+        padding-left: 75px;
+        position: absolute;
+        padding-top: 5px;
+        width: 75%;
+    }
+
+    .col col-80{
+        padding-left: 25px;
+    }
+
+    .empProfileImg{
+        height: 40px !important;
+        border-radius: 5px;
+        height: 50px;
+        width:25%;
+        margin-right: 80%;
+    }
+
+    .timeText{
+        font-size: small !important;
+        padding-bottom: inherit;
+    }
+
+    .button-blue-sleak, .button-green-sleak, .button-red-sleak{
+        /*font-size: small !important;*/
+        /*width: 150px;*/
+        padding-right: 11px;
+        padding-left: 11px;
+        text-align: center;
+    }
+
+    .notificationBtnDistance {
+        margin-left: 56px;
+        padding-top: 80px;
+    }
+
+    #buttonAdminNotify{
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+
+    #buttonMoreDetails{
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 15px;
+    }
+    .btnHireReject{
+        padding-right: 36px;
+        padding-left: 36px;
+        margin-bottom: 15px;
+    }
+    #rejectBtn{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    #viewProfileBtn{
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    .viewProfileNotify{
+        padding-right: 33px;
+        padding-left: 33px;
+         margin-bottom: 15px;
+    }
+    .flex-center{
+
+    }
+    .newMsgText{
+        color:black;
+        font-size:10px;
+    }
+    .profileImgDiv{
+        margin-left: -10px;
+    }
+}
+
+
+@media only screen and (min-width: 360px)and (max-width: 400px) {
+
+    /*Staffer*/
+    .paymentHistory{
+        font-size: 15px !important;
+    }
+
+    #viewProfileBtn{
+        /*width: 65%*/
+    }
+
+     #buttonMoreDetails{
+        padding-right: 29px;
+        padding-left: 29px;
+        margin-bottom: 15px;
+        border-radius: 3px;
+        /*width: 65%;*/
+    }
+
+    .imgDivDesktopSize{
+        margin-left: 0px;
+        position: relative;
+    }
+
+    .showAvailableShiftsNotify{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        margin-top: 90px;
+        margin-left: 75px;
+    }
+
+    .showShiftNotesNotify{
+        padding-left: 73px;
+        padding-top: 90px;
+    }
+
+    .shiftAwaitTextRejected{
+        margin-left: 75px !important;
+        border-radius: 5px !important;
+        margin-top: 110px !important;
+        font-size: 12px;
+    }
+
+    .shiftAwaitText{
+        margin-left: 20px !important;
+        border-radius: 5px !important;
+        margin-top: 75px !important;
+        padding-left:5px;
+        padding-right:5px;
+        font-size: 12px;
+    }
+
+
+    #stafferPassButtons{
+        margin-top: 20px;
+        margin-left: 0px;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+    #stafferPanelNotifiction{
+        margin-left:75px
+    }
+    /*End*/
+
+
+    #timeText{
+        margin-bottom: 52px;
+    }
+
+    #adminNotifyButton{
+        border-radius: 5px;
+        margin-left: 85px;
+        margin-top: 80px;
+    }
+    .showButtonInMobile{
+        display: inline;
+    }
+
+    .notification-type{
+         margin-left: 85px;
+         height:30px;
+         width: 60% !important;
+    }
+    #notificationTextBody{
+        font-size: small;
+        padding-left: 75px;
+        position: absolute;
+        padding-top: 5px;
+        width: 80%;
+    }
+
+    .col col-80{
+        padding-left: 25px;
+    }
+
+    .empProfileImg{
+        /*height: 40px !important;*/
+        border-radius: 5px;
+        /*height: 50px;*/
+        /*width:25%;*/
+        /*margin-right: 80%;*/
+    }
+
+    .timeText{
+        font-size: small !important;
+        padding-bottom: inherit;
+    }
+
+    .button-blue-sleak, .button-green-sleak, .button-red-sleak{
+        /*font-size: small !important;*/
+        /*width: 150px;*/
+        padding-right: 11px;
+        padding-left: 11px;
+        text-align: center;
+    }
+
+    .notificationBtnDistance {
+        margin-left: 56px;
+        padding-top: 40px;
+    }
+
+    #buttonAdminNotify{
+        padding-right: 25px;
+        padding-left: 15px;
+    }
+
+
+
+    #rejectBtn{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .btnHireReject{
+        padding-right: 54px;
+        padding-left: 54px;
+        margin-bottom: 15px;
+    }
+    .viewProfileNotify{
+        padding-right: 33px;
+        padding-left: 33px;
+         margin-bottom: 15px;
+    }
+    .flex-center{
+        height: 100px;
+        position: absolute;
+        padding-top: 90px;
+        padding-left: 43px;
+    }
+    .newMsgText{
+        color:black;
+        font-size:10px;
+    }
+    .profileImgDiv{
+        margin-left: -10px;
+    }
+}
+
+@media only screen and (min-width: 522px){
+
+    .notify-button{
+        min-width: 150px!important;
+    }
+}
+
+@media only screen and (min-width:280px) and (max-width: 522px){
+    .paymentHistory{
+        font-size: 15px !important;
+    }
+
+    .flexRemove{
+        display: inline-block!important;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 486px) {
+    .padding-left-35{
+        padding-left: 35px !important
+    }
+
+    .img-top{
+        top:30% !important
+    }
+    /*Staffer*/
+
+    #viewProfileBtn, .btnHireReject{
+        /*width: 230px*/
+    }
+
+    .imgDivDesktopSize{
+        margin-left: 0px;
+        position: relative;
+    }
+
+    .showAvailableShiftsNotify{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        margin-top: 70px;
+        margin-left: 75px;
+    }
+    .showShiftNotesNotify{
+        padding-left: 73px;
+        padding-top: 70px;
+    }
+
+    .shiftAwaitTextRejected{
+        margin-left: 75px !important;
+        border-radius: 5px !important;
+        margin-top: 100px !important;
+        font-size: 12px;
+    }
+    .shiftAwaitText{
+        margin-left: 20px !important;
+        border-radius: 5px !important;
+        margin-top: 75px !important;
+        padding-left:5px;
+        padding-right:5px;
+        font-size: 12px;
+    }
+
+
+    #stafferPassButtons{
+        margin-left: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #stafferPanelNotifiction{
+        margin-left:75px
+    }
+    /*End*/
+
+     #timeText{
+        margin-bottom: 52px;
+     }
+
+     #adminNotifyButton{
+        border-radius: 5px;
+        margin-left: 85px;
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .showButtonInMobile{
+        display: inline;
+    }
+
+    .notification-type{
+         margin-left: 85px;
+         height:30px;
+         width: 45% !important;
+    }
+    #notificationTextBody{
+        font-size: small;
+        padding-left: 75px;
+        position: absolute;
+        padding-top: 5px;
+        width: 83%;
+    }
+
+    .col col-80{
+        padding-left: 25px;
+    }
+
+    .empProfileImg{
+        /*height: 40px !important;*/
+        border-radius: 5px;
+        /*height: 50px;*/
+        /*width:25%;*/
+        /*margin-right: 80%;*/
+    }
+
+    .timeText{
+        font-size: small !important;
+        padding-bottom: inherit;
+    }
+
+    .button-blue-sleak, .button-green-sleak, .button-red-sleak{
+        /*font-size: small !important;*/
+        /*width: 150px;*/
+        padding-right: 11px;
+        padding-left: 11px;
+        text-align: center;
+    }
+
+    .notificationBtnDistance {
+        margin-left: 56px;
+        padding-top: 25px;
+    }
+
+    #buttonAdminNotify{
+       padding-right: 0px;
+        padding-left: 0px;
+        /*width: 230px*/
+
+    }
+
+    #buttonMoreDetails{
+
+        margin-bottom: 15px;
+        width: 195px;
+        border-radius: 3px;
+        /*width: 230px*/
+    }
+    .btnHireReject{
+        padding-right: 17px;
+        padding-left: 17px;
+        margin-bottom: 15px;
+        /*width: 113px;*/
+
+    }
+    #rejectBtn{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .viewProfileNotify{
+        padding-right: 33px;
+        padding-left: 33px;
+         margin-bottom: 15px;
+    }
+    .flex-center{
+        height: 100px;
+        position: absolute;
+        padding-top: 90px;
+        padding-left: 43px;
+    }
+    .newMsgText{
+        color:black;
+        font-size:10px;
+    }
+    .profileImgDiv{
+        margin-left: -10px;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 487px) and (max-width: 560px) {
+    .rating-padding{
+        max-width: 22% !important;
+    }
+    .img-top{
+        top:30% !important
+    }
+
+    .padding-left-35{
+        padding-left: 30px !important
+    }
+
+    /*Staffer*/
+    .imgDivDesktopSize{
+        margin-left: 0px;
+        position: relative;
+    }
+
+    .showAvailableShiftsNotify{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        margin-top: 70px;
+        margin-left: 75px;
+    }
+
+    .showShiftNotesNotify{
+        padding-left: 73px;
+        padding-top: 50px;
+    }
+
+    .shiftAwaitTextRejected{
+        margin-left: 75px !important;
+        border-radius: 5px !important;
+        margin-top: 100px !important;
+        font-size: 12px;
+    }
+
+    .shiftAwaitText{
+        margin-left: 20px !important;
+        border-radius: 5px !important;
+        margin-top: 60px !important;
+        padding-left:5px;
+        padding-right:5px;
+        font-size: 12px;
+    }
+
+
+    #stafferPassButtons{
+        margin-left: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    #stafferPanelNotifiction{
+        margin-left:75px
+    }
+    /*End*/
+
+    .notifications-container .day-notifications .time{
+        margin-left: 5px;
+    }
+
+    #timeText{
+        margin-bottom: 52px;
+    }
+    #adminNotifyButton{
+        border-radius: 5px;
+        margin-left: 85px;
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .showButtonInMobile{
+        display: inline;
+    }
+
+    .notification-type{
+         margin-left: 85px;
+         height:30px;
+         width: 45% !important;
+    }
+    #notificationTextBody{
+        font-size: small;
+        padding-left: 75px;
+        position: absolute;
+        padding-top: 5px;
+        width: 83%;
+    }
+
+    .col col-80{
+        padding-left: 25px;
+    }
+
+    .empProfileImg{
+        height: 40px !important;
+        border-radius: 5px;
+        height: 50px;
+        width:25%;
+        margin-right: 80%;
+    }
+
+    .timeText{
+        font-size: small !important;
+        padding-bottom: inherit;
+    }
+
+    .button-blue-sleak, .button-green-sleak, .button-red-sleak{
+        /*width: 150px;*/
+        padding-right: 11px;
+        padding-left: 11px;
+        text-align: center;
+    }
+
+    .notificationBtnDistance {
+        margin-left: 56px;
+        padding-top: 25px;
+    }
+
+    #buttonAdminNotify{
+        padding-right: 0px;
+        padding-left: 0px;
+        /*width: 250px;*/
+    }
+
+    #buttonMoreDetails{
+        margin-bottom: 15px;
+        /*width: 250px;*/
+    }
+    .btnHireReject{
+        padding-right: 34px;
+        padding-left: 34px;
+        margin-bottom: 15px;
+        /*width: 124px;*/
+    }
+
+
+
+    .viewProfileNotify{
+        padding-right: 33px;
+        padding-left: 33px;
+         margin-bottom: 15px;
+    }
+    .flex-center{
+        height: 100px;
+        position: absolute;
+        padding-top: 90px;
+        padding-left: 43px;
+    }
+    .newMsgText{
+        color:black;
+        font-size:10px;
+    }
+    .profileImgDiv{
+        margin-left: -10px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 561px) and (max-width: 700px) {
+
+    rating-padding
+     /*Staffer*/
+     .imgDivDesktopSize{
+        margin-left: 0px;
+        position: relative;
+    }
+
+     .showAvailableShiftsNotify{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        margin-top: 30px;
+        margin-left: 75px;
+    }
+
+     .showShiftNotesNotify{
+        padding-left: 73px;
+        padding-top: 30px;
+    }
+
+     .shiftAwaitTextRejected{
+        margin-left: 75px !important;
+        border-radius: 5px !important;
+        margin-top: 100px !important;
+        font-size: 12px;
+    }
+
+    .shiftAwaitText{
+        margin-left: 20px !important;
+        border-radius: 5px !important;
+        margin-top: 45px !important;
+        padding-left:5px;
+        padding-right:5px;
+        font-size: 12px;
+    }
+
+
+    #stafferPassButtons{
+        margin-left: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    #stafferPanelNotifiction{
+        margin-left:75px
+    }
+    /*End*/
+
+    .empProfileAdminImg {
+        height: 40px !important;
+        border-radius: 5px;
+        height: 60px;
+        margin-right: 85%;
+    }
+    .notifications-container .day-notifications .time{
+        /*margin-right: 12px;*/
+    }
+
+    #timeText{
+        margin-bottom: 52px;
+
+    }
+
+    #adminNotifyButton{
+        border-radius: 5px;
+        margin-left: 85px;
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .showButtonInMobile{
+        display: inline;
+    }
+
+    .notification-type{
+         margin-left: 85px;
+         height:30px;
+         width: 45% !important;
+    }
+    #notificationTextBody{
+        font-size: small;
+        padding-left: 75px;
+        position: absolute;
+        padding-top: 5px;
+        width: 83%;
+    }
+
+    .col col-80{
+        padding-left: 25px;
+    }
+
+    .empProfileImg{
+        /*height: 40px !important;*/
+        border-radius: 5px;
+        /*height: 50px;*/
+        /*width:25%;*/
+        /*margin-right: 80%;*/
+    }
+
+    .timeText{
+        font-size: small !important;
+        padding-bottom: inherit;
+    }
+
+    .button-blue-sleak, .button-green-sleak, .button-red-sleak{
+        /*font-size: small !important;*/
+        /*width: 150px;*/
+        padding-right: 11px;
+        padding-left: 11px;
+        text-align: center;
+    }
+
+    .notificationBtnDistance {
+        margin-left: 56px;
+        padding-top: 25px;
+    }
+
+
+
+    #buttonMoreDetails{
+
+        margin-bottom: 15px;
+        /*width: 305px;*/
+        display: block
+    }
+    .btnHireReject{
+        padding-right: 49px;
+        padding-left: 49px;
+        margin-bottom: 15px;
+    }
+
+    #viewProfileBtn{
+        width: 364px;
+
+    }
+
+    .viewProfileNotify{
+        padding-right: 33px;
+        padding-left: 33px;
+         margin-bottom: 15px;
+    }
+    .flex-center{
+        height: 100px;
+        position: absolute;
+        padding-top: 90px;
+        padding-left: 43px;
+    }
+    .newMsgText{
+        color:black;
+        font-size:10px;
+    }
+    .profileImgDiv{
+        margin-left: -10px;
+    }
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 701px)and (max-width: 770px) {
+
+
+    .imgDivDesktopSize{
+        margin-left: 0px;
+        position: relative;
+    }
+
+    .showAvailableShiftsNotify{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        margin-top: 50px;
+        margin-left: 75px;
+    }
+
+    .showShiftNotesNotify{
+        padding-left: 73px;
+        padding-top: 20px;
+    }
+
+    .showShiftNotesNotify{
+        padding-left: 73px;
+        padding-top: 130px;
+    }
+
+    .shiftAwaitTextRejected{
+        margin-left: 75px !important;
+        border-radius: 5px !important;
+        margin-top: 100px !important;
+        font-size: 12px;
+    }
+
+     .shiftAwaitText{
+        margin-left: 20px !important;
+        border-radius: 5px !important;
+        margin-top: 45px !important;
+        padding-left:5px;
+        padding-right:5px;
+        font-size: 12px;
+    }
+
+
+    #stafferPassButtons{
+        margin-left: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    #stafferPanelNotifiction{
+        margin-left:75px
+    }
+    /*End*/
+
+    .empProfileAdminImg {
+        height: 40px !important;
+        border-radius: 5px;
+        height: 60px;
+        margin-right: 85%;
+    }
+
+    .notifications-container .day-notifications .time{
+        /*margin-right: 17px;*/
+    }
+
+    #timeText{
+        margin-bottom: 52px;
+    }
+
+    #adminNotifyButton{
+        border-radius: 5px;
+        margin-left: 85px;
+    }
+    .showButtonInMobile{
+        display: visible;
+    }
+
+    .notification-type{
+         margin-left: 85px;
+         height:30px;
+         width: 35% !important;
+    }
+    #notificationTextBody{
+        font-size: small;
+        padding-left: 75px;
+        position: absolute;
+        padding-top: 5px;
+        width: 75%;
+    }
+
+    .col col-80{
+        padding-left: 25px;
+    }
+
+    .empProfileImg{
+        height: 40px !important;
+        border-radius: 5px;
+        height: 50px;
+        width:25%;
+        margin-right: 80%;
+    }
+
+    .timeText{
+        font-size: small !important;
+        padding-bottom: inherit;
+    }
+
+    .button-blue-sleak, .button-green-sleak, .button-red-sleak{
+        /*font-size: small !important;*/
+        /*width: 150px;*/
+        padding-right: 11px;
+        padding-left: 11px;
+        text-align: center;
+    }
+
+    .notificationBtnDistance {
+        margin-left: 56px;
+        padding-top: 25px;
+    }
+
+    #buttonAdminNotify{
+        /*width: 305px;*/
+    }
+
+    #buttonMoreDetails{
+        width: 300px;
+        display: block;
+        margin-bottom: 15px;
+    }
+    .btnHireReject{
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-bottom: 15px;
+
+    }
+    .viewProfileNotify{
+        display: block;
+        /*width: 305px;*/
+         margin-bottom: 15px;
+    }
+    .flex-center{
+        height: 100px;
+        position: absolute;
+        padding-top: 90px;
+        padding-left: 43px;
+    }
+    .newMsgText{
+        color:black;
+        font-size:10px;
+    }
+    .profileImgDiv{
+        margin-left: -10px;
+    }
+}
+
+
+
+@media only screen and (min-width: 771px)and (max-width: 800px) {
+
+    .imgDivDesktopSize{
+        margin-left: 0px;
+        position: relative;
+    }
+
+    .showAvailableShiftsNotify{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        margin-top: 50px;
+        margin-left: 75px;
+    }
+
+    .showShiftNotesNotify{
+        padding-left: 73px;
+        padding-top: 20px;
+    }
+
+    .shiftAwaitTextRejected{
+        margin-left: 75px !important;
+        border-radius: 5px !important;
+        margin-top: 100px !important;
+        font-size: 12px;
+    }
+
+     .shiftAwaitText{
+        margin-left: 20px !important;
+        border-radius: 5px !important;
+        margin-top: 45px !important;
+        padding-left:5px;
+        padding-right:5px;
+        font-size: 12px;
+    }
+
+
+    #stafferPassButtons{
+        margin-left: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    #stafferPanelNotifiction{
+        margin-left:75px
+    }
+    /*End*/
+
+    .empProfileAdminImg {
+        height: 40px !important;
+        border-radius: 5px;
+        height: 60px;
+        margin-right: 85%;
+    }
+    .notifications-container .day-notifications .time{
+        /*margin-right: 25px;*/
+    }
+
+    #timeText{
+        margin-bottom: 52px;
+    }
+
+    #adminNotifyButton{
+        border-radius: 5px;
+        margin-left: 85px;
+    }
+    .showButtonInMobile{
+        display: visible;
+    }
+
+    .notification-type{
+         margin-left: 85px;
+         height:30px;
+         width: 35% !important;
+    }
+    #notificationTextBody{
+        font-size: small;
+        padding-left: 75px;
+        position: absolute;
+        padding-top: 5px;
+        width: 75%;
+    }
+
+    .col col-80{
+        padding-left: 25px;
+    }
+
+    .empProfileImg{
+        /*height: 40px !important;*/
+        border-radius: 5px;
+        /*height: 50px;*/
+        /*width:25%;*/
+        /*margin-right: 80%;*/
+    }
+
+    .timeText{
+        font-size: small !important;
+        padding-bottom: inherit;
+    }
+
+    .button-blue-sleak, .button-green-sleak, .button-red-sleak{
+        /*font-size: small !important;*/
+        /*width: 150px;*/
+        padding-right: 11px;
+        padding-left: 11px;
+        text-align: center;
+    }
+
+    .notificationBtnDistance {
+        margin-left: 56px;
+        padding-top: 25px;
+    }
+
+    #buttonAdminNotify{
+        padding-right: 25px;
+        padding-left: 15px;
+    }
+
+    #buttonMoreDetails{
+        padding-right: 36px;
+        padding-left: 29px;
+        margin-bottom: 15px;
+    }
+    .btnHireReject{
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    .viewProfileNotify{
+        padding-right: 33px;
+        padding-left: 33px;
+         margin-bottom: 15px;
+    }
+
+    .flex-center{
+        height: 100px;
+        position: absolute;
+        padding-top: 90px;
+        padding-left: 43px;
+    }
+
+    .newMsgText{
+        color:black;
+        font-size:10px;
+    }
+
+    .profileImgDiv{
+        margin-left: -10px;
+    }
+
+    .rating-padding{
+        max-width: 22% !important;
+    }
+
+}
+
+
+.imgDivDesktopSize{
+    margin-left: 0px !important;
+    position: relative !important;
+}
+
+@media only screen and (min-width: 801px)and (max-width: 991px) {
+
+    .rating-padding{
+        max-width: 20% !important;
+    }
+
+    .showAvailableShiftsNotify{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        margin-top: 70px;
+        margin-left: 75px;
+    }
+
+    .showShiftNotesNotify{
+        padding-left: 73px;
+        padding-top: 10px;
+    }
+
+    .shiftAwaitTextRejected{
+        margin-left: 75px !important;
+        border-radius: 5px !important;
+        margin-top: 100px !important;
+        font-size: 12px;
+        padding-left:5px;
+        padding-right:5px;
+    }
+
+    .shiftAwaitText{
+        margin-left: 20px !important;
+        border-radius: 5px !important;
+        margin-top: 60px !important;
+        padding-left:5px;
+        padding-right:5px;
+        font-size: 12px;
+    }
+
+
+
+    #stafferPassButtons{
+        margin-left: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    #stafferPanelNotifiction{
+        margin-left:75px
+    }
+    /*End*/
+
+    .empProfileAdminImg {
+        height: 40px !important;
+        border-radius: 5px;
+        height: 60px;
+        margin-right: 87%;
+    }
+
+
+    .notifications-container .day-notifications .time{
+        /*margin-right: 25px;*/
+    }
+
+    #timeText{
+        margin-bottom: 52px;
+    }
+
+    #adminNotifyButton{
+        border-radius: 5px;
+        margin-left: 85px;
+    }
+    .showButtonInMobile{
+        display: visible;
+    }
+
+    .notification-type{
+         margin-left: 85px;
+         height:30px;
+         width: 35% !important;
+    }
+    #notificationTextBody{
+        font-size: small;
+        padding-left: 75px;
+        position: absolute;
+        padding-top: 5px;
+        width: 75%;
+    }
+
+    .col col-80{
+        padding-left: 25px;
+    }
+
+    .empProfileImg{
+        /*height: 40px !important;*/
+        border-radius: 5px;
+        /*height: 50px;*/
+        /*width:25%;*/
+        /*margin-right: 80%;*/
+    }
+
+    .timeText{
+        font-size: small !important;
+        padding-bottom: inherit;
+    }
+
+    .button-blue-sleak, .button-green-sleak, .button-red-sleak{
+        /*font-size: small !important;*/
+        /*width: 150px;*/
+        padding-right: 11px;
+        padding-left: 11px;
+        text-align: center;
+    }
+
+    .notificationBtnDistance {
+        margin-left: 56px;
+        padding-top: 25px;
+    }
+
+    #buttonAdminNotify{
+        padding-right: 25px;
+        padding-left: 15px;
+    }
+
+    #buttonMoreDetails{
+        padding-right: 36px;
+        padding-left: 29px;
+        margin-bottom: 15px;
+    }
+    .btnHireReject{
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-bottom: 15px;
+    }
+    .viewProfileNotify{
+        padding-right: 33px;
+        padding-left: 33px;
+         margin-bottom: 15px;
+    }
+    .flex-center{
+        height: 100px;
+        position: absolute;
+        padding-top: 90px;
+        padding-left: 25px;
+    }
+    .newMsgText{
+        color:black;
+        font-size:10px;
+    }
+    .profileImgDiv{
+        margin-left: -10px;
+    }
+
+}
+
+
+@media only screen and (min-width: 991px)and (max-width: 1160px){
+    .rating-padding{
+        max-width: 17% !important;
+    }
+
+    .showAvailableShiftsNotify{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        margin-top: 30px;
+        margin-left: 90px;
+    }
+
+    .showShiftNotesNotify{
+        padding-left: 95px;
+        padding-top: 30px;
+    }
+
+    #stafferPanelNotifiction{
+        margin-left:188px
+    }
+    .imgDivDesktopSize{
+        margin-left: 115px;
+        position: absolute;
+    }
+}
+
+@media only screen and (min-width: 1161px)and (max-width: 1200px){
+    .rating-padding{
+        max-width: 17% !important;
+    }
+    .imgDivDesktopSize{
+        margin-left: 115px;
+        position: absolute;
+    }
+
+    .showAvailableShiftsNotify{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        margin-top: 30px;
+        margin-left: 92px;
+    }
+
+    #stafferPanelNotifiction{
+        margin-left:205px
+    }
+
+    .showShiftNotesNotify{
+        padding-left: 90px;
+        padding-top: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 1201px)and (max-width: 1360px){
+    .rating-padding{
+        max-width: 14% !important;
+    }
+
+    .imgDivDesktopSize{
+        margin-left: 115px;
+        position: absolute;
+    }
+
+    .showAvailableShiftsNotify{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 0px;
+        margin-top: 30px;
+        margin-left: 88px;
+    }
+
+    #stafferPanelNotifiction{
+        margin-left:205px
+    }
+
+    .showShiftNotesNotify{
+        padding-left: 90px;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 1360px){
+    .rating-padding{
+        max-width: 12% !important;
+    }
+}
+
+
+.underline{
+    text-decoration: underline;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.rate{
+    color: #2f8cca;
+}
+
+.noti-button{
+    min-width: 170px!important;
+    min-height: 32px!important;
+    text-align: center!important;
+    margin-top: 5px;
+}
+
+.staffers-list{
+    padding-left : 15px;
+    margin-top : 10px;
+    margin-bottom : 10px;
+}
+
+.staffers-list-names{
+    padding-top: 9px;
+    display: inline-block;
+}
+
+.staffers-list img{
+    border:1px solid #F0F0F0;
+    border-radius: 20px;
+}
+
+
+.staffers-list ul{
+    margin-left: 49px;
+    background-color: #fff!important;
+}
+.staffers-list ul li{
+    font-size: 30px;
+}
+
+.rating-button{
+    background-color: #60CE94;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 3px;
+     margin-left:55px;
+    vertical-align:top;
+}
+
+
+.datepicker-here-desk .datepicker-inline .datepicker {
+    margin : 5px auto;
+}
+
+@media screen and (max-width: 310px) {
+    .rating-button{
+        margin-top: 10px;
+
+    }
+}
+
+/* ACCOUNT STATEMNT TABLE CSS */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#focus-item{
+  margin-top: 60vh;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: inline-block;
+}
+
+/* END */
+
+.hideAndVisible{
+    visibility: hidden;
+}
+
+
+.introjs-helperLayer{
+    background-color : transparent !important;
+    border: 1px solid rgba(245, 0, 0, 0.5);
+    /*width: 254px ;
+    height: 40px;
+    top: 124px ;
+    left: 10px ;*/
+
+
+}
+
+.toolTipCustomBorder{
+    width: 34px !important;
+    height: 50px !important;
+    top: -5px !important;
+    left: 8px !important;
+}
+
+.toolTipCustomBorderForMenu{
+    /*z-index:99999999999 !important;*/
+    width: 250px!important;
+}
+
+.toolTipCustomMessageBox{
+    top: 64px!important;
+    left: 15px!important;
+}
+
+.z-indexValue{
+    z-index: 0!important;
+}
+
+/* HIDING POWERED BY GOOGLE LOGO */
+.pac-container:after {
+    /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */
+
+    background-image: none !important;
+    height: 0px;
+}
+
+.border-statment{
+    border: 2px solid darkgrey;
+    border-radius: 10px;
+}
+.borderRadius5px{
+    border-radius: 5px !important;
+    background: rgb(133, 141, 146) !important;
+}
+
+.padding-dropdown{
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
+    padding-left: 15px !important;
+}
+
+.smart-serve{
+       width: 23px;
+    height: 13px;
+}
+
+.popup-container .popup {
+    background-color:  white !important;
+}
+
+.textPadding30{
+    padding-left: 33px;
+}
+ @media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .bar {
+
+      background-image: none!important;
+      }
+}
+
+
+.account-statement-staffy-address{
+    padding-left:20px;
+    padding-right: 10px;
+}
+.account-statement-invoice-summary div.row{
+    margin:0px!important;
+    padding:0px!important;
+}
+.account-statement-invoice-summary div.col, .account-statement-total div.col{
+    padding: 10px 20px;
+}
+
+.account-statement-invoice-summary div.col-30{
+    padding: 10px 2px;
+    padding-right: 10px;
+}
+
+.account-statement-single-invoice div.col{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.account-statement-single-invoice p{
+    padding :0!important;
+    margin :0!important;
+}
+
+.account-statement-total p{
+    padding-top:10px;
+}
+
+.account-statement-single-invoice-desk div.col{
+    padding-left : 10px;
+    padding-right : 10px;
+}
+.sigupButton{
+    background:#27AE60;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white !important;
+}
+
+.references-list{
+    padding:5px;
+    border-bottom:1px solid #EEEEEE;
+}
+
+.references-list p {
+    margin:0px;
+}
+
+.item.item-input.intlpn-container{
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 0px;
+}
+
+.item.item-input.intlpn-container > input{
+    font-size: 18px;
+}
+
+ion-modal-view.modal.slide-in-up.ng-enter.active.ng-enter-active {
+    width: auto;
+}
+
+/* FAQ page styling */
+#FAQ-div .list .item.item-accordion {
+    line-height: 25px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    transition: 0.09s all linear;
+}
+#FAQ-div .list .item.item-accordion.ng-hide {
+    line-height: 0px;
+}
+#FAQ-div .list .item.item-accordion.ng-hide-add,
+#FAQ-div .list .item.item-accordion.ng-hide-remove {
+    display: block !important;
+}
+
+.badge-crimson{
+    color:crimson;
+}
+
+#rating-on-notification li{
+    font-size:30px;
+}
+
+
+/* NEW DESIGN */
+
+/* broadcast view */
+
+.with-100{
+    width:100%;
+}
+
+.create-broadcast-container h1, .create-broadcast-container h2, .create-broadcast-container h3,
+.create-broadcast-container h4, .create-broadcast-container B1, .create-broadcast-container B2,
+.create-broadcast-container B3, .create-broadcast-container B5,
+.create-broadcast-container L1, .new-reference-container h1, .new-reference-container h2, .new-reference-container h3
+{
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.create-broadcast-container h1, .new-reference-container h1{
+    margin: 10px 0px 20px 0px;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.create-broadcast-container h1.page-title-mobile, .new-reference-container h1.page-title-mobile{
+    margin: 20px 0px 30px 0px;
+    font-size: 30px;
+}
+
+.create-broadcast-container h2{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.create-broadcast-container h3{
+    font-size: 14px;
+    margin:0 !important;
+    font-weight: 700;
+}
+
+.create-broadcast-container h4{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.B1{
+    font-size: 18px;
+    color: #4A4A4A;
+    font-weight: 400;
+}
+
+.B2{
+    font-size: 14px;
+    color: #4A4A4A;
+    font-weight: 400;
+}
+
+.B3{
+    font-size: 14px;
+    color: #DD052B;
+    font-weight: 700;
+}
+
+.B4{
+    font-size: 14px;
+    color: #4A4A4A;
+}
+
+.B5{
+    font-size: 10px;
+    color: #4A4A4A;
+    font-weight: 400;
+}
+
+.L1{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+L1:active{
+    color: #257ABF;
+}
+
+L1:hover{
+    color: #084C83;
+}
+
+L1:visited{
+    color: #979797;
+}
+
+.background-staffy-blue{
+    border-color: #92D7E7!important;
+}
+
+.background-orange{
+    background-color: #F38335;
+}
+
+.new-custom-checkbox { position: absolute; opacity: 0; z-index: -1; }
+.new-custom-checkbox+span:before { font: 12pt FontAwesome; color: #257ABF; content: '\00f096'; display: inline-block; width: 16pt; padding: 2px 0 0 3px; margin-right: 0.5em; }
+.new-custom-checkbox:checked+span:before { content: '\00f046'; }
+.new-custom-checkbox:disabled+span { color: #999; }
+.new-custom-checkbox:not(:disabled)+span:hover:before { text-shadow: 0 .5px .5px grey; }
+
+.create-broadcast-container div.row, .create-broadcast-container div.col{
+    margin:0;
+    padding:0;
+}
+
+.create-broadcast-container .shift-details > div div.row{
+    margin-bottom:20px;
+}
+
+
+.create-broadcast-container .shift-details{
+    background-color: #FFF;
+    padding:20px;
+    border-left: 10px solid #257ABF;
+    margin-bottom: 20px;
+    margin-top:10px;
+}
+
+.create-broadcast-container input{
+    border-bottom: 1px solid #4A4A4A;
+}
+
+.create-broadcast-container select, .new-reference-container select{
+    border:none;
+    border-bottom: 1px solid #4A4A4A;
+    height:34px;
+}
+
+.create-broadcast-container label span{
+    vertical-align: text-bottom;
+}
+
+
+
+.remove-shift-button, .remove-reference-button{
+    min-width: 130px;
+    border : 2px solid #257ABF;
+    font-size: 15px;
+    color: #257ABF;
+    background-color: #fff;
+}
+
+.create-broadcast-container .mobile-view .remove-shift-button, .new-reference-container .mobile-view .remove-reference-button{
+    width: 80%;
+}
+
+.remove-shift-button:hover, .remove-reference-button:hover{
+    color: #fff;
+    background-color: #257ABF;
+}
+
+
+.create-broadcast-container .event-portion{
+    padding: 20px 30px;
+    background-color: #fff;
+}
+
+.new-reference-container .event-portion{
+  padding: 20px 30px;
+  background-color: #fff;
+  width: 100%;
+  border-left: 10px solid #257ABF;
+}
+
+
+.event-portion-odd{
+    border-color: #92D7E7 !important
+}
+.new-reference-container input{
+  width: 100%;
+  border-bottom: 1px solid #4A4A4A;
+}
+
+.create-broadcast-container .event-portion .address-item{
+    /* display: inline-block; */
+    margin-right: 70px;
+    margin: 5px 70px 5px 0px;
+    float: left;
+    max-width: 200px;
+}
+
+.create-broadcast-container .event-portion .address-item label{
+    padding-left: 15px;
+    text-indent: -15px;
+}
+
+.create-broadcast-container .mobile-view .event-portion .address-item{
+    float: none;
+    max-width: 100%;
+    margin-right: 0px;
+}
+
+.create-broadcast-container .shifts-list-view{
+    background-color: #FFF;
+}
+
+.create-broadcast-container .shifts-list-view h3{
+    padding:10px 25px 10px 25px;
+    background-color:#4A4A4A;
+    color:#fff;
+}
+
+.create-broadcast-container .shifts-list-view > div{
+    padding: 20px 25px;
+}
+
+.create-broadcast-container .shifts-list-view .shift-list-item{
+    margin-bottom:10px;
+}
+
+.create-broadcast-container .shifts-list-view .shift-list-item p{
+    margin:0;
+}
+
+.create-broadcast-container .add-new-shift-button, .new-reference-container .add-reference-btn{
+    width: 155px;
+    height: 60px;
+    background-color: #257ABF;
+    color : #fff;
+    border:none;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+
+.new-reference-container .add-reference-btn{
+  width: 200px;
+  height: 60px;
+  margin: 40px 0;
+  background-color: #257ABF;
+  color : #fff;
+  border:none;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.create-broadcast-container p.mods-text{
+    margin: 20px 0px 0px 0px;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-weight: 700;
+    color: #257ABF;
+}
+
+.create-broadcast-container .broadcast-shift-button{
+    width: 100%;
+    height: 60px;
+    background-color: #257ABF;
+    color : #fff;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    font-size: 18px;
+    border: none;
+}
+
+.create-broadcast-container .broadcast-shift-button:hover{
+    background-color: #DF5E04;
+}
+
+.create-broadcast-container p.note{
+    margin: 20px 0px;
+}
+
+.new-reference-container .another-ref h3{
+  color: #257ABF
+}
+.new-reference-container .another-ref{
+  margin: 40px 0;
+  text-align: center;
+
+}
+
+.divider{
+  margin: 0;
+  border-bottom: 1px solid darkgrey;
+}
+
+.border-bottom-error{
+  font-weight: bold;
+  font-family: 'Source Sans Pro';
+  border-bottom: 1px solid #DD052B !important;
+}
+
+
+
+.numOfRatedUsers {
+    color: white
+}
+
+ion-list.foh-list > div {
+    margin-top: 10px;
+}
