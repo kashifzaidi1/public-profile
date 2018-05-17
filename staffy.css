@@ -12,8 +12,8 @@ body{
 .staff_container{
     background-color: white;
     margin: -100px auto 0 auto;
-    width: 70%;
-    padding: 85px;
+    width: 72%;
+    padding: 100px;
 }
 
 .staffer_profile_img{
@@ -25,6 +25,10 @@ body{
     text-align: center
 }
 
+.body .row{
+    margin-left: 0 !important;
+    margin-right: 0 !important
+}
 
 
 /* 
@@ -91,49 +95,51 @@ new Design for staffer-profile
 }   
 
 .staffer-profile h1{
-    font-size: 60px;
+    font-size: 60pt;
 }
 
 .staffer-profile h2{
-    font-size: 40px;
+    font-size: 40pt;
+    font-weight: 300;
+    font-family: 'Source Sans Pro' !important;
 }
 
 .staffer-profile h3{
-    font-size: 18px;
+    font-size: 18pt;
     font-weight: 900;
     text-transform: uppercase
 }
 
 .staffer-profile .myP{
-    font-size: 20px;
+    font-size: 20pt;
     font-weight: 200;
     text-transform: uppercase;
 }
 
 .staffer-profile h4{
-    font-size: 15px;
+    font-size: 15pt;
     font-weight: 900
 }
 
 .staffer-profile h5{
-    font-size: 18px;
-    font-weight: 900;
-    font-family: 'Merriweather, sans-sarif';
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: 'Merriweather'!important;
     font-style: italic;
 }
 
 .staffer-profile .B1{
-    font-size: 18px;
+    font-size: 18pt;
     color: #4A4A4A;
 }
 
 .staffer-profile .B2{
-    font-size: 14px;
+    font-size: 14pt;
     color: #4A4A4A;
 }
 
 .staffer-profile .B3{
-    font-size: 14px;
+    font-size: 14pt;
     font-weight: 900;
     color: #4A4A4A;
 }
@@ -145,22 +151,22 @@ new Design for staffer-profile
 }
 
 .staffer-profile .B5{
-    font-size: 10px;
+    font-size: 10pt;
     color: #4A4A4A;
 }
 
 .staffer-profile .B6{
-    font-size: 18px;
+    font-size: 18pt;
     color: #979797;
 }
 
 .staffer-profile .B7{
-    font-size: 15px;
+    font-size: 15pt;
     color: #979797;
 }
 
-.staffer-profile .B7{
-    font-size: 18px;
+.staffer-profile .B8{
+    font-size: 18pt;
     color: #4A4A4A;
 }
 /* 
@@ -169,55 +175,59 @@ new Design for staffer-profile
 
 .staffer-profile .L1{
     color: #257ABF;
-    font-size: 18px;
+    font-size: 18pt;
     font-weight: 900
 }
 
 .staffer-profile .L1:hover{
     cursor: pointer;
     color: #257ABF;
-    font-size: 18px;
+    font-size: 18pt;
     font-weight: 900;
     text-decoration: underline
 }
 
 .staffer-profile .L1:visited{
     color: #979797;
-    font-size: 18px;
+    font-size: 18pt;
     font-weight: 900;
 }
 
 .staffer-profile .L1:active{
     color: #084C83;
-    font-size: 18px;
+    font-size: 18pt;
     font-weight: 900;
 }
 
 .staffer-profile .L2{
     color: #257ABF;
-    font-size: 18px;
+    font-size: 18pt;
     font-style: italic
 }
 
 .staffer-profile .L2:hover{
     cursor: pointer;
     color: #257ABF;
-    font-size: 18px;
+    font-size: 18pt;
     font-style: italic;
     text-decoration: underline
 }
 
 .staffer-profile .L1:visited{
     color: #979797;
-    font-size: 18px;
+    font-size: 18pt;
     font-style: italic
 }
 
 .staffer-profile .L1:active{
     color: #084C83;
-    font-size: 18px;
+    font-size: 18pt;
     font-style: italic
 }
+
+
+
+/* Margins */
 
 .margin-top-30{
     margin-top: 30px;
@@ -249,27 +259,32 @@ new Design for staffer-profile
 
 
 
+/* 
+    Buttons
+*/
+
+
+
+
 
 /* Divider */
 
 
 .col-12-dark-divider{
-    border: 1px solid #979797
+    border: 1px solid #4A4A4A
 }
 
 .col-12-dark-divider-2px{
-    border: 2px solid #979797
+    border: 2px solid #4A4A4A
 }
 
 .col-12-light-divider{
     border: 1px solid lightgray
 }
 
-.summary-heading{
+/* .summary-heading{
     color: white;
     background: #257ABF;
-    width: 30px;
-    height: 30px;
     padding: 5px;
     border-radius: 50%;
     margin-right: 10px
@@ -277,7 +292,7 @@ new Design for staffer-profile
 
 .summary-heading::before{
     padding-left: 2px;
-}
+} */
 
 .never-late{
     background-color: #92D7E7;
@@ -292,17 +307,71 @@ new Design for staffer-profile
     width: 200px !important;
 }
 
+.staffer-profile .remove-shift-button{
+    min-width: 80px;
+    margin-bottom: 5px !important;
+    border: 3px solid #979797 !important;
+    color: #979797 !important;
+}
+
+.staffer-profile .remove-shift-button:hover{
+    width: auto !important;
+    min-width: 80px;
+    cursor: pointer;
+    background-color: #979797;
+    color:white !important;
+}
+
 .inline-block{
     display: inline-block;
 }
 
-@media only screen 
-  and (min-width: 320px) 
-  and (max-width: 767px){
- .staffy-container-padding{
-    
-    width: 85%!important;
-    padding: 35px!important;
- }
-  }
+.filled-stars{
+    font-size: 20px;
+    color: #F38335;
+}
+
+.unfilled-stars{
+   font-size: 20px;
+   color: #F38335
+}
+
+.my-icon::before{
+    background-color: #257ABF;
+    border-radius: 50%;
+    padding: 7px;
+    color:white;
+    margin-right: 5px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .staffy-container-padding{
+        width: 95%!important;
+        padding: 35px!important;
+    }
+
+    .latest-reviews{
+        margin-top: 30px;
+    }
+
+    .staffer-profile .B6{
+        font-size: 16px;
+    }
+
+    .staffer-profile h2 {
+        font-size: 30pt;
+    }
+
+    .mob-content-bottom-margin{
+        margin-bottom: 30px;
+    }
+
+    .filled-stars {
+        font-size: 25px;
+    }
+
+    .v-al-middle{
+        vertical-align: bottom!important;
+    }
+}
 
