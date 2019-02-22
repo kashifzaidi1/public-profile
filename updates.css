@@ -1,0 +1,194 @@
+/* This CSS sheet has been made by Sheikh Naveed to make staffy.com more inline with it's original style guide */
+
+body, span {font-family: 'Source Sans Pro' !important;}
+
+.staffy_bg {
+    height: 430px;
+}
+
+h2 {
+    font-weight: 300;
+    line-height:1em;
+}
+
+b6
+{
+  font-family : Source Sans Pro;
+  font-size : 18px;
+  color : #979797;
+  line-height: 1em;
+}
+
+
+.summary-heading {
+    padding: 0;
+    text-align: center;
+    line-height: 30px;
+    color: white !important;
+    font-size: 15px !important;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+h5 {
+  font-family: 'Merriweather', serif !important;
+    font-weight : bold;
+    font-style : italic;
+    font-size : 18px;
+    color : #4A4A4A;
+}
+
+.overall-rating {color: #F18334;margin-left: 5px;font-size: 24px;vertical-align: top;position: relative;top: 10px;}
+
+
+.col-12-dark-divider {
+    border: none;
+    border-top: 1px solid #979797;
+}
+
+.list-separator-1 {
+    margin-bottom: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.list-separator-1:first-child {
+    padding-top: 0;
+    margin-top: 0;
+    border: 0;
+    color: red;
+    background: red;
+}
+
+h3 {
+    color: #4a4a4a;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.staffer-profile .B3 {.NormalCharacterStyle {:
+ }
+ font-weight: bold !important;
+ font-size : 18px;
+ color : #4A4A4A;
+ font-family: 'Source Sans Pro' !important;
+}
+
+.fa-star, .fa-star-o, .fa-star-half {
+    color: #F18334;
+    font-size: 24px;
+}
+
+.remove-shift-button {
+    border: 2px solid #979797;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    min-width: 205px;
+    padding: 5px 10px;
+    color: #979797;
+}
+
+.skills-fonts {
+    color: #979797;
+    /* font-weight: 300; */
+    display: inline-block;
+    width: auto !important;
+}
+
+.remove-shift-button:hover {
+    background: none;
+    color: #979797;
+}
+
+#burst-12 {
+    background: red;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    text-align: center;
+  }
+  #burst-12:before,
+  #burst-12:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    background: red;
+  }
+  #burst-12:before {
+    transform: rotate(30deg);
+  }
+  #burst-12:after {
+    transform: rotate(60deg);
+  }
+
+.badge {
+    /* font-family: Source Sans Pro; */
+    /* font-weight : bold; */
+    font-size : 18px;
+    /* color : #257ABF; */
+    color : rgb(37, 122, 191);
+    text-transform: uppercase;
+    line-height: 1em;
+    padding: 0;
+    margin: 0;
+    /* display: inline-block; */
+}
+
+.list-separator-1 span {
+    font-size: 18px;
+}
+
+.pt20 {padding-top:20px}
+.pb20 {padding-bottom: 20px;}
+.pt30 {padding-top:30px}
+.pb30 {padding-bottom: 30px;}
+.mb30 {margin-bottom: 30px}
+.mt20 {margin-top: 20px;}
+.mt30 {margin-top: 30px;}
+.bt {border-top: 1px solid gray}
+.bb {border-bottom: 1px solid gray}
+.btg {border-top: 1px solid #ddd;}
+.m0 {margin:0;}
+.mb0 {margin-bottom: 0;}
+
+.experienceList .btg ~ .btg {
+    border-top: 1px solid #ddd;
+}
+
+.experienceList .btg {
+    border-top: none;
+}
+
+.badges {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.badges img {
+    width: 100%;
+}
+
+.tac {text-align:center;}
+
+.vam {vertical-align: middle;}
+
+.b1 {
+    font-size: 18px;
+    color: #4A4A4A;
+}
+
+.b6 {
+    font-size: 18px;
+    color: #979797;
+}
+.summary-heading::before {
+    padding: 0;
+}
